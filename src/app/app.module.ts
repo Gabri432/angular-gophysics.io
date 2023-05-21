@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {MatIconModule} from '@angular/material/icon';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -18,7 +19,8 @@ import { FooterComponent } from './shared/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
