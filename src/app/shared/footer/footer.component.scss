@@ -29,4 +29,22 @@
         text-decoration: none;
         color: white;
     }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 899px){
+    #bar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bottom {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 499px){
+    #bar {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
