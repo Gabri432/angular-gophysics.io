@@ -34,7 +34,7 @@ pre {
     border-radius: 5px;
     font-size: 16px;
     padding: 2%;
-    overflow-y: visible;
+    color: white;
 }
 code {
     color: greenyellow;
@@ -43,17 +43,32 @@ code {
 .codes {
     font-size: 16px;
     padding: 2%;
-    color: white;
 }
 li a {
     color: black;
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 899px){
     #main {
         width: 80%;
         padding: 2%;
         margin-left: 9%;
+    }
+    .text {
+        width: 74%;
+        padding-left: 13%;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 629px){
+    #main {
+        width: fit-content;
+        margin: 0;
+    }
+    .text {
+        width: fit-content;
+        padding-left: 2%;
+        font-size: 18px;
     }
 }
