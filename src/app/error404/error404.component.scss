@@ -1,16 +1,23 @@
 #error-panel {
     width: 60%;
-    background-color: white;
     margin-left: 18%;
     padding: 1%;
+    text-align: center;
+    padding-top: 100px;
+
+    .icon {
+        transform: scale(7);
+    }
 
     #title {
-        text-align: center;
-        font-size: 50px;
+        margin-top: 30px;
+        font-size: 70px;
     }
     #sub-title {
-        text-align: center;
         font-size: 35px;
+    }
+    #tips {
+        text-align: left;
     }
 
     nav {
