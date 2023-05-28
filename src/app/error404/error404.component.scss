@@ -1,0 +1,27 @@
+#error-panel {
+    width: 60%;
+    background-color: white;
+    margin-left: 18%;
+    padding: 1%;
+
+    #title {
+        text-align: center;
+        font-size: 50px;
+    }
+    #sub-title {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+    a {
+        text-decoration: none;
+        color: #025d95;
+    }
+    a::after {
+        content: "\a";
+        white-space: pre;
+    }
+}

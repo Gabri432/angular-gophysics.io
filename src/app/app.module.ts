@@ -10,6 +10,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
 import { FunctionDisplayerComponent } from './shared/function-displayer/function-displayer.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FunctionDisplayerComponent } from './shared/function-displayer/function
     HeaderComponent,
     FooterComponent,
     SideBarComponent,
-    FunctionDisplayerComponent
+    FunctionDisplayerComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

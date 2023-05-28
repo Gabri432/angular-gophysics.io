@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +7,4 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-gophysics-io';
-  hideComponent = false;
-
-  constructor(private router: Router) {
-    router.events.subscribe((route) => {
-      if (route instanceof NavigationEnd) {
-        if (route.url == "/") {
-          this.hideComponent = true;
-        }
-      }
-    })
-  }
 }
