@@ -1,4 +1,19 @@
+#upper-bar {
+    background-color: #025d95;
+    width: 98%;
+    padding: 1%;
+    text-align: left;
+
+    h2 {
+        color: white; 
+    }
+}
 #bar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+#lower-bar {
     background-color: #262626;
     margin: 0;
     width: 96%;
@@ -6,8 +21,6 @@
     font-weight: bold;
     padding: 2%;
     text-align: center;
-    top: 0;
-    position: fixed;
 
     nav {
         font-size: 18px;
