@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
+import { FunctionDisplayerComponent } from './shared/function-displayer/function-displayer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SideBarComponent } from './shared/side-bar/side-bar.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SideBarComponent
+    SideBarComponent,
+    FunctionDisplayerComponent
   ],
   imports: [
     BrowserModule,
