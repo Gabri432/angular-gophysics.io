@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+//import { Function } from '../../interfaces/function';
 
 @Component({
   selector: 'app-function-displayer',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./function-displayer.component.scss']
 })
 export class FunctionDisplayerComponent {
+  //@Input() Function!: Function;
 
 }

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 2,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 3,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 4,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 5,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 6,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 7,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 8,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 9,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    },
+    {
+        "id": 10,
+        "constantName": "lorem ipsum",
+        "constantDescription": "blabla",
+        "constantValue": 1e9,
+        "context": "Electricity"
+    }
+]
