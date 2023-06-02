@@ -2,6 +2,6 @@ export interface Function {
     id: number;
     functionName: string;
     functionDescription: string;
-    functionFormula: number;
+    functionFormula: string;
     context: string;
 }
