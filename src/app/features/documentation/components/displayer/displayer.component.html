@@ -1,5 +1,5 @@
-<div class="displayer">
-    <div class="title" *ngIf="displayFunct">{{funct?.functionName}}</div>
+<div class="displayer" *ngIf="displayFunct">
+    <div class="title">{{funct?.functionName}}</div>
     <div class="value">{{funct?.functionFormula}}</div>
     <hr>
     <div class="details">{{funct?.functionDescription}}</div>
