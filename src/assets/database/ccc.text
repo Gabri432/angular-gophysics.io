@@ -1,10 +1,3 @@
-const gravity = new Constant("Earth gravity", "9.81", "m/s^2", "gravity")
-const c = new Constant("C (Light Speed on vacuum)", "299792452", "m/s", "c")
-const lunarDist = new Constant("Earth-Moon Distance", "384,000,000", "m", "lunarDist")
-const lunarDistMax = new Constant("Max Earth-Moon Distance", "405,000,000", "m", "lunarDistMax")
-const lunarDistMin = new Constant("Min Earth-Moon Distance", "362,000,000", "m", "lunarDistMin")
-const sound = new Constant("sound speed (on vacuum)", "340", "m/s", "sound")
-const au = new Constant("Astronomical unit", "1.49*10^11", "m", "au")
 const parsec = new Constant("Parsec", "3.08*10^16", "m", "parsec")
 // Making some space
 const earthMass = new Constant("Earth mass", "5.98*10^24", "kg", "earthMass")

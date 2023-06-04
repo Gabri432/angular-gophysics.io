@@ -1,18 +1,122 @@
 [
     {
         "id": 1,
-        "constantName": "lorem ipsum",
-        "constantDescription": "blabla",
-        "constantValue": 1e9,
-        "measurementUnit": "",
-        "context": "Electricity"
+        "constantName": "gravity",
+        "constantDescription": "Earth gravitational acceleration.",
+        "constantValue": 9.81,
+        "measurementUnit": "m/s^2",
+        "context": "gravity"
     },
     {
         "id": 2,
-        "constantName": "lorem ipsum",
-        "constantDescription": "blabla",
-        "constantValue": 1e9,
-        "measurementUnit": "",
-        "context": "Electricity"
+        "constantName": "C",
+        "constantDescription": "Light Speed (on vacuum).",
+        "constantValue": 299792452,
+        "measurementUnit": "m/s",
+        "context": "relativity"
+    },
+    {
+        "id": 3,
+        "constantName": "lunarDist",
+        "constantDescription": "Average Earth-Moon Distance.",
+        "constantValue": 384e6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 4,
+        "constantName": "lunarDistMax",
+        "constantDescription": "Max Earth-Moon Distance.",
+        "constantValue": 405e6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 5,
+        "constantName": "sound",
+        "constantDescription": "Speed of sound.",
+        "constantValue": 340,
+        "measurementUnit": "m/s",
+        "context": "classical"
+    },
+    {
+        "id": 6,
+        "constantName": "au",
+        "constantDescription": "Min Earth-Moon Distance.",
+        "constantValue": 1.49e11,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 7,
+        "constantName": "parsec",
+        "constantDescription": "One Parsec.",
+        "constantValue": 3.08e16,
+        "measurementUnit": "m",
+        "context": "relativity"
+    },
+    {
+        "id": 8,
+        "constantName": "earthMass",
+        "constantDescription": "Earth Mass.",
+        "constantValue": 5.98e24,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 9,
+        "constantName": "sunMass",
+        "constantDescription": "Sun Mass.",
+        "constantValue": 1.98e30,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 10,
+        "constantName": "moonMass",
+        "constantDescription": "Moon Mass.",
+        "constantValue": 7.342e22,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 11,
+        "constantName": "earthRadius",
+        "constantDescription": "Earth Radius.",
+        "constantValue": 6.378e6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 12,
+        "constantName": "sunRadius",
+        "constantDescription": "Sun Radius.",
+        "constantValue": 6.9634e8,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 13,
+        "constantName": "moonRadius",
+        "constantDescription": "Moon Radius.",
+        "constantValue": 1.731e6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 14,
+        "constantName": "G",
+        "constantDescription": "Universal Gravity Constant.",
+        "constantValue": 6.67e-11,
+        "measurementUnit": "(N*m^2)/kg^2",
+        "context": "gravity"
+    },
+    {
+        "id": 15,
+        "constantName": "lightYear",
+        "constantDescription": "A Light year.",
+        "constantValue": 9.46e15,
+        "measurementUnit": "m",
+        "context": "relativity"
     }
 ]
