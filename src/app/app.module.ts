@@ -9,7 +9,6 @@ import { HomeComponent } from './features/home/home.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { SideBarComponent } from './features/documentation/components/side-bar/side-bar.component';
-import { FunctionDisplayerComponent } from './features/documentation/components/function-displayer/function-displayer.component';
 import { Error404Component } from './core/components/error404/error404.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DocumentationPageComponent } from './features/documentation/documentation-page/documentation-page.component';
@@ -22,7 +21,6 @@ import { DisplayerComponent } from './features/documentation/components/displaye
     HeaderComponent,
     FooterComponent,
     SideBarComponent,
-    FunctionDisplayerComponent,
     Error404Component,
     DocumentationPageComponent,
     DisplayerComponent
