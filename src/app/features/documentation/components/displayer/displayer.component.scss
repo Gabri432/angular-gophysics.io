@@ -1,7 +1,6 @@
 @use '../../../../../styles.scss' as style;
 .displayer {
-    border: 1px solid #373737;
-    border-radius: 5px;
+    margin-bottom: 5%;
 }
 .title {
     background-color: style.$blue-gophysics;

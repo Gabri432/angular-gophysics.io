@@ -1,16 +1,13 @@
 <div class="displayer">
-    <div class="title">
-        <span *ngIf="true">{{funct.functionName}}</span>
-        <span *ngIf="">{{constant.constantName}}</span>
-    </div>
-    <div class="value">
-        <span *ngIf="true">{{funct.functionFormula}}</span>
-        <span *ngIf="">{{constant.constantValue}}</span>
-    </div>
+    <div class="title" *ngIf="displayFunct">{{funct?.functionName}}</div>
+    <div class="value">{{funct?.functionFormula}}</div>
     <hr>
-    <div class="details">
-        <span *ngIf="true">{{funct.functionDescription}}</span>
-        <span *ngIf="">{{constant.constantDescription}}</span>
-    </div>
+    <div class="details">{{funct?.functionDescription}}</div>
+</div>
+<div class="displayer" *ngIf="displayConst">
+    <div class="title">{{constant?.constantName}}</div>
+    <div class="value">{{constant?.constantValue}}</div>
+    <hr>
+    <div class="details">{{constant?.constantDescription}}</div>
 </div>
 <br />

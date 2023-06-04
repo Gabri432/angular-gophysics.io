@@ -8,9 +8,9 @@ import { Constant } from 'src/app/core/models/constant';
   styleUrls: ['./displayer.component.scss']
 })
 export class DisplayerComponent {
-  @Input() funct!: Function;
-  @Input() constant!: Constant;
-  showConstant = true;
-  showFunction = false;
+  @Input() funct: Function | undefined;
+  @Input() constant: Constant | undefined;
+  @Input() displayFunct!: boolean;
+  @Input() displayConst!: boolean;
 
 }

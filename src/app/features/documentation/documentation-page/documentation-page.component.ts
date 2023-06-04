@@ -24,6 +24,9 @@ export class DocumentationPageComponent {
     this.loadFunctions().subscribe(data =>{
       this.functions = data;
     })
+    this.loadConstants().subscribe(data =>{
+      this.constants = data;
+    })
   }
 
   loadFunctions(): Observable<Function[]> {

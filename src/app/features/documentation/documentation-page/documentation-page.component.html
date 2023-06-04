@@ -3,7 +3,16 @@
     <div>
         <h1>gophysics-library v0.18.0 documentation page</h1>
     <div class="text">
-        <app-displayer *ngFor="let func of functions" [funct]="func"></app-displayer>
+        <h3>Functions</h3>
+        <app-displayer 
+        [displayConst]="false" 
+        [displayFunct]="true" 
+        *ngFor="let func of functions" [funct]="func"></app-displayer>
+        <h3>Constants</h3>
+        <app-displayer 
+        [displayConst]="true" 
+        [displayFunct]="false" 
+        *ngFor="let const of constants" [constant]="const"></app-displayer>
     </div>
     </div> 
 </div>
