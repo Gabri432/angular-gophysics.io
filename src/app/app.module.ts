@@ -13,6 +13,7 @@ import { FunctionDisplayerComponent } from './features/documentation/components/
 import { Error404Component } from './core/components/error404/error404.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DocumentationPageComponent } from './features/documentation/documentation-page/documentation-page.component';
+import { DisplayerComponent } from './features/documentation/components/displayer/displayer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DocumentationPageComponent } from './features/documentation/documentati
     SideBarComponent,
     FunctionDisplayerComponent,
     Error404Component,
-    DocumentationPageComponent
+    DocumentationPageComponent,
+    DisplayerComponent
   ],
   imports: [
     BrowserModule,

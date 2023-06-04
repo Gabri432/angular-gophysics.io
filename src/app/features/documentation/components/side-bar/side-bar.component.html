@@ -1,1 +1,11 @@
-<div id="mySidenav" class="sidenav"></div>
+<div id="mySidenav" class="sidenav">
+    <h3>Functions</h3>
+    <div *ngFor="let func of functions">
+        <a href="">{{func.functionName}}</a>
+    </div>
+    <br />
+    <h3>Constants</h3>
+    <div *ngFor="let const of constants">
+        <a href="">{{const.constantName}}</a>
+    </div>
+</div>

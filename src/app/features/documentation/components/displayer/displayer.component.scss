@@ -1,0 +1,18 @@
+@use '../../../../../styles.scss' as style;
+.displayer {
+    border: 1px solid #373737;
+    border-radius: 5px;
+}
+.title {
+    background-color: style.$blue-gophysics;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2%;
+}
+.details, .value {
+    padding: 1%;
+}
+.value {
+    font-weight: bold;
+}

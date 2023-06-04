@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
+    position: relative;
 
     .bottom {
         padding-left: 10%;

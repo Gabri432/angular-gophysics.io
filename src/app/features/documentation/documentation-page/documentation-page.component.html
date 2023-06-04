@@ -1,7 +1,9 @@
 <div id="documentation-page">
-    <h1>gophysics-library v0.18.0 documentation page</h1>
+    <app-side-bar></app-side-bar>
+    <div>
+        <h1>gophysics-library v0.18.0 documentation page</h1>
     <div class="text">
-        <app-function-displayer *ngFor="let func of functions" [functionLibrary]="func"></app-function-displayer>
+        <app-displayer *ngFor="let func of functions" [funct]="func"></app-displayer>
     </div>
+    </div> 
 </div>
-<app-side-bar></app-side-bar>

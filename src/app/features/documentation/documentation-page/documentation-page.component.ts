@@ -16,17 +16,13 @@ export class DocumentationPageComponent {
   private constantsUrl = 'assets/database/constants.json';
   functions: Array<Function> = [];
   constants: Array<Constant> = [];
-  products: any = [];
 
   constructor(public http: HttpClient) {
   };
 
   ngOnInit() {
     this.loadFunctions().subscribe(data =>{
-      console.log(data);
-      this.products = data;
       this.functions = data;
-      console.log(this.functions);
     })
   }
 
