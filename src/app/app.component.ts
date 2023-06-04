@@ -10,7 +10,6 @@ export class AppComponent {
   showHeaderAndFooter = true;
 
   ngOnInit() {
-    console.log(location.pathname);
     switch(location.pathname) {
       case '/':
       case '/about':
