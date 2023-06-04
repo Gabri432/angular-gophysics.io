@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Function } from '../interfaces/function';
+import { Function } from '../core/models/function';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
 
