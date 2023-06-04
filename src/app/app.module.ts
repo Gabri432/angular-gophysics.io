@@ -10,7 +10,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
 import { FunctionDisplayerComponent } from './shared/function-displayer/function-displayer.component';
-import { Error404Component } from './error404/error404.component';
+import { Error404Component } from './core/components/error404/error404.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
