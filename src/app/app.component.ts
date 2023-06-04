@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-gophysics-io';
+  showHeaderAndFooter = true;
+
+  ngOnInit() {
+    console.log(location.pathname);
+    switch(location.pathname) {
+      case '/':
+      case '/about':
+      case '/documentation':
+        break;
+      default:
+        this.showHeaderAndFooter = false;
+    }
+  }
 }
