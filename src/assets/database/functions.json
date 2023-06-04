@@ -4,6 +4,7 @@
         "functionName": "lorem ipsum...",
         "functionDescription": "blablabla",
         "functionFormula": "x=y",
+        "measurementUnit": "",
         "context": "gravity"
     },
     {
@@ -11,6 +12,7 @@
         "functionName": "lorem ipsum...",
         "functionDescription": "blablabla",
         "functionFormula": "x=y",
+        "measurementUnit": "",
         "context": "gravity"
     },
     {
@@ -18,6 +20,7 @@
         "functionName": "lorem ipsum...",
         "functionDescription": "blablabla",
         "functionFormula": "x=y",
+        "measurementUnit": "",
         "context": "gravity"
     },
     {
@@ -25,6 +28,7 @@
         "functionName": "lorem ipsum...",
         "functionDescription": "blablabla",
         "functionFormula": "x=y",
+        "measurementUnit": "",
         "context": "gravity"
     },
     {
@@ -32,41 +36,7 @@
         "functionName": "lorem ipsum...",
         "functionDescription": "blablabla",
         "functionFormula": "x=y",
-        "context": "gravity"
-    },
-    {
-        "id": 6,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "context": "gravity"
-    },
-    {
-        "id": 7,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "context": "gravity"
-    },
-    {
-        "id": 8,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "context": "gravity"
-    },
-    {
-        "id": 9,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "context": "gravity"
-    },
-    {
-        "id": 10,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
+        "measurementUnit": "",
         "context": "gravity"
     }
 ]

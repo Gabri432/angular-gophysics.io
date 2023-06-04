@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import { Function } from '../../../../core/models/function';
-import { Constant } from 'src/app/core/models/constant';
+import { Function } from '../../models/function';
+import { Constant } from 'src/app/features/documentation/models/constant';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 

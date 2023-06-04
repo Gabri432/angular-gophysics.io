@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Function } from '../../../../core/models/function';
+import { Function } from '../../models/function';
 
 @Component({
   selector: 'app-function-displayer',

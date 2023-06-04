@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
-import { Function } from '../../../core/models/function';
+import { Function } from '../models/function';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
-import { Constant } from 'src/app/core/models/constant';
+import { Constant } from 'src/app/features/documentation/models/constant';
 
 @Component({
   selector: 'app-documentation-page',

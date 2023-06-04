@@ -3,5 +3,6 @@ export interface Constant {
     constantName: string;
     constantDescription: string;
     constantValue: number;
+    measurementUnit: string;
     context: string;
 }
