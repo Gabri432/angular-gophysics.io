@@ -1,9 +1,10 @@
+@use '../../../../../styles.scss' as style;
 .function-displayer {
     border: 1px solid #373737;
     border-radius: 5px;
 }
 .function-title {
-    background-color: #373737;
+    background-color: style.$blue-gophysics;
     color: white;
     border-radius: 5px;
     font-size: 16px;

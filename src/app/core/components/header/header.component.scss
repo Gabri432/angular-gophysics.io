@@ -1,3 +1,4 @@
+@use '../../../../styles.scss' as style;
 #bar {
     top: 0;
     width: 100%;
@@ -6,7 +7,7 @@
     font-weight: bold;
 }
 #upper-bar {
-    background-color: #025d95;
+    background-color: style.$blue-gophysics;
     width: 98%;
     padding: 1%;
     text-align: left;

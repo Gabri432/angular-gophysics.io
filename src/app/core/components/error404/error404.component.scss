@@ -1,3 +1,4 @@
+@use '../../../../styles.scss' as style;
 #error-panel {
     width: 60%;
     margin-left: 18%;
@@ -25,7 +26,7 @@
     }
     a {
         text-decoration: none;
-        color: #025d95;
+        color: $blue-gophysics;
     }
     a::after {
         content: "\a";
