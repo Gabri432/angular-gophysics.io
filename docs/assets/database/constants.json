@@ -118,5 +118,280 @@
         "constantValue": 9.46e15,
         "measurementUnit": "m",
         "context": "relativity"
+    },
+    {
+        "id": 16,
+        "constantName": "hubble",
+        "constantDescription": "Hubble constant.",
+        "constantValue": 69.8,
+        "measurementUnit": "(km/s)/Mpc (Mega parsec)",
+        "context": "relativity"
+    },
+    {
+        "id": 17,
+        "constantName": "protonMass",
+        "constantDescription": "Proton mass.",
+        "constantValue": 1.672e-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 18,
+        "constantName": "electronMass",
+        "constantDescription": "Electron mass.",
+        "constantValue": 9.109e-31,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 19,
+        "constantName": "neutronMass",
+        "constantDescription": "Neutron mass.",
+        "constantValue": 1.674e-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 20,
+        "constantName": "absZero",
+        "constantDescription": "Absolute Zero.",
+        "constantValue": -273,
+        "measurementUnit": "°C (Celsius Degrees)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 21,
+        "constantName": "R",
+        "constantDescription": "R constant.",
+        "constantValue": 8.316,
+        "measurementUnit": "J / (Mole * °K)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 22,
+        "constantName": "thermCoeffExpansion",
+        "constantDescription": "Thermal Coefficient Expansion.",
+        "constantValue": 0.036,
+        "measurementUnit": "",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 23,
+        "constantName": "planck",
+        "constantDescription": "Planck constant.",
+        "constantValue": 6.6260693e-34,
+        "measurementUnit": "(m^2 * kg) / (seconds)",
+        "context": "relativity"
+    },
+    {
+        "id": 24,
+        "constantName": "avogadro",
+        "constantDescription": "Avogadro constant.",
+        "constantValue": 6.022e23,
+        "measurementUnit": "molecules per mole",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 25,
+        "constantName": "planckMass",
+        "constantDescription": "Planck mass constant.",
+        "constantValue": 2.17645e-8,
+        "measurementUnit": "kg",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 26,
+        "constantName": "planckTime",
+        "constantDescription": "Planck time constant.",
+        "constantValue": 5.391e-44,
+        "measurementUnit": "s",
+        "context": "relativity"
+    },
+    {
+        "id": 27,
+        "constantName": "stefBoltz",
+        "constantDescription": "Stefan-Boltzmann Constant.",
+        "constantValue": 5.67e-8,
+        "measurementUnit": "W/(m^2 * (°K)^4)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 28,
+        "constantName": "dielettric",
+        "constantDescription": "Dielettric constant (Vacuum Permittivity).",
+        "constantValue": 8.854e-12,
+        "measurementUnit": "Faraday/m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 29,
+        "constantName": "vacuumPermeability",
+        "constantDescription": "Vacuum Permeability.",
+        "constantValue": 1.256637e-6,
+        "measurementUnit": "Henry/meter or N/A (Newton per Ampere)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 30,
+        "constantName": "elemCharge",
+        "constantDescription": "Elementary charge.",
+        "constantValue": 1.602e-19,
+        "measurementUnit": "C (coulomb)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 31,
+        "constantName": "silverResistivity",
+        "constantDescription": "Silver resistivity (at 20 °C).",
+        "constantValue": 1.59e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 32,
+        "constantName": "copperResistivity",
+        "constantDescription": "Copper resistivity (at 20 °C).",
+        "constantValue": 1.68e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 33,
+        "constantName": "ironResistivity",
+        "constantDescription": "Iron resistivity (at 20 °C).",
+        "constantValue": 9.7e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 34,
+        "constantName": "steelResistivity",
+        "constantDescription": "Steel resistivity (at 20 °C).",
+        "constantValue": 69.0e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 35,
+        "constantName": "proportConst",
+        "constantDescription": "Proportionality constant.",
+        "constantValue": 2.7e-7,
+        "measurementUnit": "N/(A^2)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "weber",
+        "constantDescription": "Weber.",
+        "constantValue": 10e8,
+        "measurementUnit": "Maxwell",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "tesla",
+        "constantDescription": "Tesla.",
+        "constantValue": 10e4,
+        "measurementUnit": "Gauss",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 37,
+        "constantName": "atomicMass",
+        "constantDescription": "Atomic mass.",
+        "constantValue": 1.66053e-27,
+        "measurementUnit": "kg",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 38,
+        "constantName": "airDensity",
+        "constantDescription": "Air Density.",
+        "constantValue": 1.29,
+        "measurementUnit": "kg/(m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 39,
+        "constantName": "waterDensity",
+        "constantDescription": "Water Density.",
+        "constantValue": 10e3,
+        "measurementUnit": "kg/(m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 40,
+        "constantName": "heliumMass",
+        "constantDescription": "Helium mass.",
+        "constantValue": 5.006e-27,
+        "measurementUnit": "kg)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 41,
+        "constantName": "atm",
+        "constantDescription": "Atmosphere.",
+        "constantValue": 1.013e5,
+        "measurementUnit": "Pascal",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 42,
+        "constantName": "angstrom",
+        "constantDescription": "Angstrom.",
+        "constantValue": 10e-19,
+        "measurementUnit": "m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 43,
+        "constantName": "waterViscosity0",
+        "constantDescription": "Water viscosity at 0 °C.",
+        "constantValue": 1.8e-3,
+        "measurementUnit": "Pascal*s",
+        "context": "fluids"
+    },
+    {
+        "id": 44,
+        "constantName": "waterViscosity20",
+        "constantDescription": "Water viscosity at 20 °C.",
+        "constantValue": 10e-3,
+        "measurementUnit": "Pascal*s",
+        "context": "fluids"
+    },
+    {
+        "id": 45,
+        "constantName": "copperConductivity",
+        "constantDescription": "Copper conductivity.",
+        "constantValue": 401,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 46,
+        "constantName": "goldConductivity",
+        "constantDescription": "Gold conductivity.",
+        "constantValue": 318,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 47,
+        "constantName": "ironConductivity",
+        "constantDescription": "Iron conductivity.",
+        "constantValue": 83.5,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 48,
+        "constantName": "airConductivity",
+        "constantDescription": "Air conductivity.",
+        "constantValue": 0.024,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
     }
 ]
+
+
+
