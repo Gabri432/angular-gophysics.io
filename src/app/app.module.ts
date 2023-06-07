@@ -3,25 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MatIconModule} from '@angular/material/icon';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './features/home/home.component';
-import { HeaderComponent } from './core/components/header/header.component';
-import { FooterComponent } from './core/components/footer/footer.component';
 import { SideBarComponent } from './features/documentation/components/side-bar/side-bar.component';
-import { Error404Component } from './core/components/error404/error404.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DocumentationPageComponent } from './features/documentation/documentation-page/documentation-page.component';
 import { DisplayerComponent } from './features/documentation/components/displayer/displayer.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
-    FooterComponent,
     SideBarComponent,
-    Error404Component,
     DocumentationPageComponent,
     DisplayerComponent
   ],
@@ -29,8 +23,8 @@ import { DisplayerComponent } from './features/documentation/components/displaye
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
