@@ -1,15 +1,4 @@
 // Making some space
-const planckMass = new Constant("Planck mass constant", "2.17645*10^-8", "kg", "planckMass")
-const planckTime = new Constant("Planck time constant", "5.391*10^-44", "s", "planckTime")
-const stefBoltz = new Constant("Stefan-Boltzmann Constant", "5.67*10^-8", "W/(m^2 * (°K)^4)", "stefBoltz")
-const dielettric = new Constant("Dielettric constant (Vacuum Permittivity)", "8.854*10^-12", "Faraday/m", "dielettric")
-const vacuumPermeability = new Constant("Vacuum Permeability", "1.256637*10^-6", "Henry/meter or N/A (Newton per Ampere)", "vacuumPermeability")
-const elemCharge = new Constant("Elementary charge", "1.602e-19", "C", "elemCharge")
-const silverResistivity = new Constant("Silver resistivity (at 20 °C)", "1.59*10^-8", "Ohm*m", "silverResistivity")
-const copperResistivity = new Constant("Copper resistivity (at 20 °C)", "1.68*10^-8", "Ohm*m", "copperResistivity")
-const ironResistivity = new Constant("Iron resistivity (at 20 °C)", "9.7*10^-8", "Ohm*m", "ironResistivity")
-const steelResistivity = new Constant("Steel resistivity (at 20 °C)", "69.0*10^-8", "Ohm*m", "steelResistivity")
-// Making some space
 const proportConst = new Constant("Proportionality constant", "2.7*10^-7", "N/(A^2)", "proportConst")
 const weber = new Constant("Weber", "10^8", "Maxwell", "weber")
 const tesla = new Constant("Tesla", "10^4", "Gauss", "tesla")

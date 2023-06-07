@@ -172,7 +172,7 @@
         "constantName": "thermCoeffExpansion",
         "constantDescription": "Thermal Coefficient Expansion.",
         "constantValue": 0.036,
-        "measurementUnit": "NO UNIT",
+        "measurementUnit": "",
         "context": "thermodynamics"
     },
     {
@@ -190,6 +190,88 @@
         "constantValue": 6.022e23,
         "measurementUnit": "molecules per mole",
         "context": "thermodynamics"
+    },
+    {
+        "id": 25,
+        "constantName": "planckMass",
+        "constantDescription": "Planck mass constant.",
+        "constantValue": 2.17645e-8,
+        "measurementUnit": "kg",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 26,
+        "constantName": "planckTime",
+        "constantDescription": "Planck time constant.",
+        "constantValue": 5.391e-44,
+        "measurementUnit": "s",
+        "context": "relativity"
+    },
+    {
+        "id": 27,
+        "constantName": "stefBoltz",
+        "constantDescription": "Stefan-Boltzmann Constant.",
+        "constantValue": 5.67e-8,
+        "measurementUnit": "W/(m^2 * (°K)^4)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 28,
+        "constantName": "dielettric",
+        "constantDescription": "Dielettric constant (Vacuum Permittivity).",
+        "constantValue": 8.854e-12,
+        "measurementUnit": "Faraday/m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 29,
+        "constantName": "vacuumPermeability",
+        "constantDescription": "Vacuum Permeability.",
+        "constantValue": 1.256637e-6,
+        "measurementUnit": "Henry/meter or N/A (Newton per Ampere)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 30,
+        "constantName": "elemCharge",
+        "constantDescription": "Elementary charge.",
+        "constantValue": 1.602e-19,
+        "measurementUnit": "C (coulomb)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 31,
+        "constantName": "silverResistivity",
+        "constantDescription": "Silver resistivity (at 20 °C).",
+        "constantValue": 1.59e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 32,
+        "constantName": "copperResistivity",
+        "constantDescription": "Copper resistivity (at 20 °C).",
+        "constantValue": 1.68e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 33,
+        "constantName": "ironResistivity",
+        "constantDescription": "Iron resistivity (at 20 °C).",
+        "constantValue": 9.7e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 34,
+        "constantName": "steelResistivity",
+        "constantDescription": "Steel resistivity (at 20 °C).",
+        "constantValue": 69.0e-8,
+        "measurementUnit": "Ohm*m",
+        "context": "electromagnetism"
     }
 ]
+
+
 
