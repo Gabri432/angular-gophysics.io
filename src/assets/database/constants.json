@@ -270,6 +270,126 @@
         "constantValue": 69.0e-8,
         "measurementUnit": "Ohm*m",
         "context": "electromagnetism"
+    },
+    {
+        "id": 35,
+        "constantName": "proportConst",
+        "constantDescription": "Proportionality constant.",
+        "constantValue": 2.7e-7,
+        "measurementUnit": "N/(A^2)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "weber",
+        "constantDescription": "Weber.",
+        "constantValue": 10e8,
+        "measurementUnit": "Maxwell",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "tesla",
+        "constantDescription": "Tesla.",
+        "constantValue": 10e4,
+        "measurementUnit": "Gauss",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 37,
+        "constantName": "atomicMass",
+        "constantDescription": "Atomic mass.",
+        "constantValue": 1.66053e-27,
+        "measurementUnit": "kg",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 38,
+        "constantName": "airDensity",
+        "constantDescription": "Air Density.",
+        "constantValue": 1.29,
+        "measurementUnit": "kg/(m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 39,
+        "constantName": "waterDensity",
+        "constantDescription": "Water Density.",
+        "constantValue": 10e3,
+        "measurementUnit": "kg/(m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 40,
+        "constantName": "heliumMass",
+        "constantDescription": "Helium mass.",
+        "constantValue": 5.006e-27,
+        "measurementUnit": "kg)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 41,
+        "constantName": "atm",
+        "constantDescription": "Atmosphere.",
+        "constantValue": 1.013e5,
+        "measurementUnit": "Pascal",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 42,
+        "constantName": "angstrom",
+        "constantDescription": "Angstrom.",
+        "constantValue": 10e-19,
+        "measurementUnit": "m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 43,
+        "constantName": "waterViscosity0",
+        "constantDescription": "Water viscosity at 0 °C.",
+        "constantValue": 1.8e-3,
+        "measurementUnit": "Pascal*s",
+        "context": "fluids"
+    },
+    {
+        "id": 44,
+        "constantName": "waterViscosity20",
+        "constantDescription": "Water viscosity at 20 °C.",
+        "constantValue": 10e-3,
+        "measurementUnit": "Pascal*s",
+        "context": "fluids"
+    },
+    {
+        "id": 45,
+        "constantName": "copperConductivity",
+        "constantDescription": "Copper conductivity.",
+        "constantValue": 401,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 46,
+        "constantName": "goldConductivity",
+        "constantDescription": "Gold conductivity.",
+        "constantValue": 318,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 47,
+        "constantName": "ironConductivity",
+        "constantDescription": "Iron conductivity.",
+        "constantValue": 83.5,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 48,
+        "constantName": "airConductivity",
+        "constantDescription": "Air conductivity.",
+        "constantValue": 0.024,
+        "measurementUnit": "W/(m * °K)",
+        "context": "electromagnetism"
     }
 ]
 

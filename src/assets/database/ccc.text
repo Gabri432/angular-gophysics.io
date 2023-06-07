@@ -1,17 +1,1 @@
-// Making some space
-const proportConst = new Constant("Proportionality constant", "2.7*10^-7", "N/(A^2)", "proportConst")
-const weber = new Constant("Weber", "10^8", "Maxwell", "weber")
-const tesla = new Constant("Tesla", "10^4", "Gauss", "tesla")
-const atomicMass = new Constant("Atomic mass", "1.66053*10^-27", "kg", "atomicMass")
-const airDensity = new Constant("Air Density", "1.29", "kg/(m^3)", "airDensity")
-const waterDensity = new Constant("Water density", "10^3", "kg/(m^3)", "waterDensity")
-const heliumMass = new Constant("Helium mass", "5.006*10^-27", "kg", "heliumMass")
-const atm = new Constant("Atmosphere", "1.013*10^5", "Pascal", "atm")
-const angstrom = new Constant("Angstrom", "10^-19", "m", "angstrom")
-// Making some space
-const waterViscosity0 = new Constant("Water viscosity at 0 °C", "1.8*10^-3", "Pascal*s", "waterViscosity0")
-const waterViscosity20 = new Constant("Water viscosity at 20 °C", "10*10^-3", "Pascal*s", "waterViscosity20")
-const copperConductivity = new Constant("Copper conductivity", "401", "W/(m * °K)", "copperConductivity")
-const goldConductivity = new Constant("Gold conductivity (at 0 °C)", "318", "W/(m * °K)", "copperConductivity")
-const ironConductivity = new Constant("Iron conductivity (at 0 °C)", "83.5", "W/(m * °K)", "ironConductivity")
-const airConductivity = new Constant("Air conductivity (at 0 °C)", "0.024", "W/(m * °K)", "airConductivity")
+
