@@ -118,5 +118,78 @@
         "constantValue": 9.46e15,
         "measurementUnit": "m",
         "context": "relativity"
+    },
+    {
+        "id": 16,
+        "constantName": "hubble",
+        "constantDescription": "Hubble constant.",
+        "constantValue": 69.8,
+        "measurementUnit": "(km/s)/Mpc (Mega parsec)",
+        "context": "relativity"
+    },
+    {
+        "id": 17,
+        "constantName": "protonMass",
+        "constantDescription": "Proton mass.",
+        "constantValue": 1.672e-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 18,
+        "constantName": "electronMass",
+        "constantDescription": "Electron mass.",
+        "constantValue": 9.109e-31,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 19,
+        "constantName": "neutronMass",
+        "constantDescription": "Neutron mass.",
+        "constantValue": 1.674e-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 20,
+        "constantName": "absZero",
+        "constantDescription": "Absolute Zero.",
+        "constantValue": -273,
+        "measurementUnit": "°C (Celsius Degrees)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 21,
+        "constantName": "R",
+        "constantDescription": "R constant.",
+        "constantValue": 8.316,
+        "measurementUnit": "J / (Mole * °K)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 22,
+        "constantName": "thermCoeffExpansion",
+        "constantDescription": "Thermal Coefficient Expansion.",
+        "constantValue": 0.036,
+        "measurementUnit": "NO UNIT",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 23,
+        "constantName": "planck",
+        "constantDescription": "Planck constant.",
+        "constantValue": 6.6260693e-34,
+        "measurementUnit": "(m^2 * kg) / (seconds)",
+        "context": "relativity"
+    },
+    {
+        "id": 24,
+        "constantName": "avogadro",
+        "constantDescription": "Avogadro constant.",
+        "constantValue": 6.022e23,
+        "measurementUnit": "molecules per mole",
+        "context": "thermodynamics"
     }
 ]
+
