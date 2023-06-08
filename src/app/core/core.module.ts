@@ -5,13 +5,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { throwIfAlreadyLoaded } from './module-import.guard';
 import {MatIconModule} from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [Error404Component, FooterComponent, HeaderComponent],
   imports: [
-    CommonModule, MatIconModule
+    CommonModule, MatIconModule, RouterModule
   ],
   exports: [Error404Component, FooterComponent, HeaderComponent]
 })
