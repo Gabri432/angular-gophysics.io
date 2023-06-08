@@ -10,13 +10,9 @@ export class AppComponent {
   showHeaderAndFooter = true;
 
   ngOnInit() {
-    switch(location.pathname) {
-      case '/':
-      case '/about':
-      case '/documentation':
-        break;
-      default:
-        this.showHeaderAndFooter = false;
+    if (!location.pathname.includes('/angular-gophysics.io/') || location.pathname.includes('/error-page')) {
+      this.showHeaderAndFooter = false;
     }
+    console.log(location.pathname);
   }
 }
