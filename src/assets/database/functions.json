@@ -1,42 +1,84 @@
 [
     {
         "id": 1,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "measurementUnit": "",
-        "context": "gravity"
+        "functionName": "Acceleration (force, mass float64)",
+        "functionDescription": "Formula for the acceleration.",
+        "functionFormula": "force/mass",
+        "measurementUnit": "m/s^2",
+        "context": "classical"
     },
     {
         "id": 3,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=z",
-        "measurementUnit": "",
-        "context": "gravity"
+        "functionName": "AngularFreq (time float64)",
+        "functionDescription": "Formula for the angular frequency.",
+        "functionFormula": "(2 * greekPi) / time",
+        "measurementUnit": "rad/s",
+        "context": "classical"
     },
     {
         "id": 3,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "measurementUnit": "",
-        "context": "gravity"
+        "functionName": "CentripetalAccel (speed, radius float64)",
+        "functionDescription": "Centripetal acceleration.",
+        "functionFormula": "(speed^2) / radius",
+        "measurementUnit": "m/s^2",
+        "context": "classical"
     },
     {
         "id": 4,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "measurementUnit": "",
+        "functionName": "CentripetalForce (mass, speed, radius float64)",
+        "functionDescription": "Centripetal Force.",
+        "functionFormula": "(mass * speed^2) / radius",
+        "measurementUnit": "N",
         "context": "gravity"
     },
     {
         "id": 5,
-        "functionName": "lorem ipsum...",
-        "functionDescription": "blablabla",
-        "functionFormula": "x=y",
-        "measurementUnit": "",
+        "functionName": "Density (weight, volume float64)",
+        "functionDescription": "Formula for the density.",
+        "functionFormula": "weight/volume",
+        "measurementUnit": "kg/m^3",
         "context": "gravity"
+    },
+    {
+        "id": 6,
+        "functionName": "DopplerCloser (speed, frequence float64)",
+        "functionDescription": "Doppler Effect when subject gets closer to source.",
+        "functionFormula": "(1 + (speed / 340)) * frequence",
+        "measurementUnit": "hertz",
+        "context": ""
+    },
+    {
+        "id": 7,
+        "functionName": "DopplerFarer (speed, frequence float64)",
+        "functionDescription": "Doppler Effect when subject gets farer from source.",
+        "functionFormula": "(1 - (speed / 340)) * frequence",
+        "measurementUnit": "hertz",
+        "context": ""
+    },
+    {
+        "id": 8,
+        "functionName": "DriftSpeed (intensity, chargeCarrierDensity, area, particleCharge float64)",
+        "functionDescription": "Formula for the drift speed.",
+        "functionFormula": "intensity / (chargeCarrierDensity * area * particleCharge)",
+        "measurementUnit": "m/s",
+        "context": ""
+    }
+    ,
+    {
+        "id": 9,
+        "functionName": "ElectricField (charge, radius float64)",
+        "functionDescription": "Electric Field.",
+        "functionFormula": "(charge) / (4 * greekPi * Vacuum Premittivity constant * radius^2)",
+        "measurementUnit": "N/C",
+        "context": ""
+    }
+    ,
+    {
+        "id": 10,
+        "functionName": "",
+        "functionDescription": "",
+        "functionFormula": "",
+        "measurementUnit": "",
+        "context": ""
     }
 ]
