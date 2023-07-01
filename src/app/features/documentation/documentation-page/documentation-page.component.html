@@ -6,12 +6,14 @@
         <h3>Functions</h3>
         <app-displayer 
         [displayConst]="false" 
-        [displayFunct]="true" 
+        [displayFunct]="true"
+        [attr.id]="func.functionName" 
         *ngFor="let func of functions" [funct]="func"></app-displayer>
         <h3>Constants</h3>
         <app-displayer 
         [displayConst]="true" 
-        [displayFunct]="false" 
+        [displayFunct]="false"
+        [attr.id]="const.constantName" 
         *ngFor="let const of constants" [constant]="const"></app-displayer>
     </div>
     </div>
