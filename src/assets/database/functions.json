@@ -62,8 +62,7 @@
         "functionFormula": "intensity / (chargeCarrierDensity * area * particleCharge)",
         "measurementUnit": "m/s",
         "context": ""
-    }
-    ,
+    },
     {
         "id": 9,
         "functionName": "ElectricField (charge, radius float64)",
@@ -71,10 +70,129 @@
         "functionFormula": "(charge) / (4 * greekPi * Vacuum Premittivity constant * radius^2)",
         "measurementUnit": "N/C",
         "context": ""
-    }
-    ,
+    },
     {
         "id": 10,
+        "functionName": "ElectricPotentDiff (charge, distance1, distance2 float64)",
+        "functionDescription": "",
+        "functionFormula": "(charge / (4 * greekPi * Vacuum Premittivity constant)) * ((1 / distance1) - (1 / distance2))",
+        "measurementUnit": "V",
+        "context": ""
+    },
+    {
+        "id": 11,
+        "functionName": "ElectricPotentEnergyDiff (charge1, charge2, distance1, distance2 float64)",
+        "functionDescription": "",
+        "functionFormula": "[(charge1 * charge2) / (4 * greekPi * Vacuum Premittivity constant)] * [(1 / distance1) - (1 / distance2)]",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 12,
+        "functionName": "ElectricPotential (charge, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "(charge) / (4 * greekPi * Vacuum Premittivity constant * distance)",
+        "measurementUnit": "V",
+        "context": ""
+    },
+    {
+        "id": 13,
+        "functionName": "EnergyDens (electricFieldModule float64)",
+        "functionDescription": "",
+        "functionFormula": "(1 / 2) * Vacuum Premittivity constant * (electricFieldModule * electricFieldModule)",
+        "measurementUnit": "J/m^3",
+        "context": ""
+    },
+    {
+        "id": 14,
+        "functionName": "",
+        "functionDescription": "",
+        "functionFormula": "",
+        "measurementUnit": "",
+        "context": ""
+    },
+    {
+        "id": 15,
+        "functionName": "EnergyDensity (electricField, magneticField float64)",
+        "functionDescription": "",
+        "functionFormula": "(1/2)*Dieletric constant on vacuum*(electricField*electricField) + (1/(2*Vacuum Premittivity constant))*(magneticField^2)",
+        "measurementUnit": "J/m^3",
+        "context": ""
+    },
+    {
+        "id": 16,
+        "functionName": "EscapeSpeed (mass, radius float64)",
+        "functionDescription": "",
+        "functionFormula": "[(2*G*mass)/(radius)]^(1/2)",
+        "measurementUnit": "m/s",
+        "context": ""
+    },
+    {
+        "id": 17,
+        "functionName": "Force (mass, acceleration float64)",
+        "functionDescription": "",
+        "functionFormula": "mass*acceleration",
+        "measurementUnit": "N",
+        "context": ""
+    },
+    {
+        "id": 18,
+        "functionName": "Frequency (speed, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "speed / distance",
+        "measurementUnit": "hertz",
+        "context": ""
+    },
+    {
+        "id": 19,
+        "functionName": "GaussFlux (charge float64)",
+        "functionDescription": "",
+        "functionFormula": "charge / Vacuum Premittivity constant",
+        "measurementUnit": "N*m^2/C",
+        "context": ""
+    },
+    {
+        "id": 20,
+        "functionName": "GravAttract (mass1, mass2, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "(G * mass1 * mass2) / (distance^2)",
+        "measurementUnit": "m/s^2",
+        "context": ""
+    },
+    {
+        "id": 21,
+        "functionName": "GravField (mass, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "(G * mass) / (distance^2)",
+        "measurementUnit": "m/s^2",
+        "context": ""
+    },
+    {
+        "id": 22,
+        "functionName": "HeatFlux (thermalConductivityConstant, startingTemperatureKelvin, finalTemperatureKelvin, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "-1 * thermalConductivityConstant * (finalTemperatureKelvin - startingTemperatureKelvin) / distance",
+        "measurementUnit": "W",
+        "context": ""
+    },
+    {
+        "id": 23,
+        "functionName": "HorizontalPos (velocity, timeInSeconds, angleInDeg float64)",
+        "functionDescription": "",
+        "functionFormula": "velocity * timeInSeconds * Cosine(angleInDeg)",
+        "measurementUnit": "m",
+        "context": ""
+    },
+    {
+        "id": 24,
+        "functionName": "Intensity (power, area float64)",
+        "functionDescription": "",
+        "functionFormula": "power / area",
+        "measurementUnit": "W/m^2",
+        "context": ""
+    },
+    {
+        "id": 25,
         "functionName": "",
         "functionDescription": "",
         "functionFormula": "",
