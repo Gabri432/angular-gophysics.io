@@ -105,30 +105,22 @@
     },
     {
         "id": 14,
-        "functionName": "",
-        "functionDescription": "",
-        "functionFormula": "",
-        "measurementUnit": "",
-        "context": ""
-    },
-    {
-        "id": 15,
         "functionName": "EnergyDensity (electricField, magneticField float64)",
         "functionDescription": "",
-        "functionFormula": "(1/2)*Dieletric constant on vacuum*(electricField*electricField) + (1/(2*Vacuum Premittivity constant))*(magneticField^2)",
+        "functionFormula": "(1/2) * Dieletric constant on vacuum * ( electricField * electricField ) + ( 1/(2 * Vacuum Premittivity constant))*(magneticField^2)",
         "measurementUnit": "J/m^3",
         "context": ""
     },
     {
-        "id": 16,
+        "id": 15,
         "functionName": "EscapeSpeed (mass, radius float64)",
         "functionDescription": "",
-        "functionFormula": "[(2*G*mass)/(radius)]^(1/2)",
+        "functionFormula": "[(2*G*mass) / (radius)]^(1/2)",
         "measurementUnit": "m/s",
         "context": ""
     },
     {
-        "id": 17,
+        "id": 16,
         "functionName": "Force (mass, acceleration float64)",
         "functionDescription": "",
         "functionFormula": "mass*acceleration",
@@ -136,7 +128,7 @@
         "context": ""
     },
     {
-        "id": 18,
+        "id": 17,
         "functionName": "Frequency (speed, distance float64)",
         "functionDescription": "",
         "functionFormula": "speed / distance",
@@ -144,7 +136,7 @@
         "context": ""
     },
     {
-        "id": 19,
+        "id": 18,
         "functionName": "GaussFlux (charge float64)",
         "functionDescription": "",
         "functionFormula": "charge / Vacuum Premittivity constant",
@@ -152,7 +144,7 @@
         "context": ""
     },
     {
-        "id": 20,
+        "id": 19,
         "functionName": "GravAttract (mass1, mass2, distance float64)",
         "functionDescription": "",
         "functionFormula": "(G * mass1 * mass2) / (distance^2)",
@@ -160,7 +152,7 @@
         "context": ""
     },
     {
-        "id": 21,
+        "id": 20,
         "functionName": "GravField (mass, distance float64)",
         "functionDescription": "",
         "functionFormula": "(G * mass) / (distance^2)",
@@ -168,7 +160,7 @@
         "context": ""
     },
     {
-        "id": 22,
+        "id": 21,
         "functionName": "HeatFlux (thermalConductivityConstant, startingTemperatureKelvin, finalTemperatureKelvin, distance float64)",
         "functionDescription": "",
         "functionFormula": "-1 * thermalConductivityConstant * (finalTemperatureKelvin - startingTemperatureKelvin) / distance",
@@ -176,7 +168,7 @@
         "context": ""
     },
     {
-        "id": 23,
+        "id": 22,
         "functionName": "HorizontalPos (velocity, timeInSeconds, angleInDeg float64)",
         "functionDescription": "",
         "functionFormula": "velocity * timeInSeconds * Cosine(angleInDeg)",
@@ -184,7 +176,7 @@
         "context": ""
     },
     {
-        "id": 24,
+        "id": 23,
         "functionName": "Intensity (power, area float64)",
         "functionDescription": "",
         "functionFormula": "power / area",
@@ -192,7 +184,47 @@
         "context": ""
     },
     {
+        "id": 24,
+        "functionName": "JouleHeating (resistance, currentIntensity float64)",
+        "functionDescription": "",
+        "functionFormula": "resistance * (currentIntensity^2)",
+        "measurementUnit": "W",
+        "context": ""
+    },
+    {
         "id": 25,
+        "functionName": "KineticEner (mass, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "(1 / 2) * mass * (speed^2)",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 26,
+        "functionName": "LawCoulomb (charge1, charge2, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "COULOMB constant * (|charge1| * |charge2|) / (distance^2)",
+        "measurementUnit": "N",
+        "context": ""
+    },
+    {
+        "id": 27,
+        "functionName": "LawGayLussacPressure (pressure, celsiusDeg_Temperature float64)",
+        "functionDescription": "",
+        "functionFormula": "pressure * (1 + (1/273)*(celsiusDeg_Temperature))",
+        "measurementUnit": "Pascal",
+        "context": ""
+    },
+    {
+        "id": 28,
+        "functionName": "LawGayLussacVolume (volume, celsiusDeg_Temperature float64)",
+        "functionDescription": "",
+        "functionFormula": "volume * (1 + (1/273)*(celsiusDeg_Temperature))",
+        "measurementUnit": "m^3",
+        "context": ""
+    },
+    {
+        "id": 29,
         "functionName": "",
         "functionDescription": "",
         "functionFormula": "",
