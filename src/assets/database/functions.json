@@ -459,7 +459,7 @@
         "id": 58,
         "functionName": "VerticalPos (velocity, timeInSeconds, angleInDeg float64)",
         "functionDescription": "Vertical Position formula.",
-        "functionFormula": "velocity * timeInSeconds*Sine(angleInDeg) - (1/2)*g*(timeInSeconds^2)",
+        "functionFormula": "velocity * timeInSeconds * Sine(angleInDeg) - (1/2) *g*(timeInSeconds^2)",
         "measurementUnit": "m",
         "context": "classical"
     },
