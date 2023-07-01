@@ -312,7 +312,119 @@
         "context": ""
     },
     {
-        "id": 39,
+        "id": 40,
+        "functionName": "PotentialElasticEner (elasticConstant, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "(1 / 2) * elasticConstant * (distance^2)",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 41,
+        "functionName": "PotentialEner (mass, acceleration, height float64)",
+        "functionDescription": "",
+        "functionFormula": "mass * acceleration * height",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 42,
+        "functionName": "PotentialGravEner (mass, height float64)",
+        "functionDescription": "",
+        "functionFormula": "mass * g * height",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 43,
+        "functionName": "PotentialGravEner2 (mass1, mass2, distance float64)",
+        "functionDescription": "",
+        "functionFormula": "-1 * [(G * mass1 * mass2) / (distance)]",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 44,
+        "functionName": "Power (work, time float64)",
+        "functionDescription": "",
+        "functionFormula": "work / time",
+        "measurementUnit": "W",
+        "context": ""
+    },
+    {
+        "id": 45,
+        "functionName": "Pressure (normalForce, area float64)",
+        "functionDescription": "",
+        "functionFormula": "normalForce / area",
+        "measurementUnit": "Pascal",
+        "context": ""
+    },
+    {
+        "id": 46,
+        "functionName": "ProjectileFlightTime (initialVelocity, angleInDeg float64)",
+        "functionDescription": "",
+        "functionFormula": "2 * initialVelocity * Sine(angleInDeg)",
+        "measurementUnit": "s",
+        "context": ""
+    },
+    {
+        "id": 47,
+        "functionName": "ProjectileMaxHeight (initialVelocity, angleInDeg float64)",
+        "functionDescription": "",
+        "functionFormula": "(initialVelocity^2 * SineSquare(angleInDeg)) / (2 * g)",
+        "measurementUnit": "m",
+        "context": ""
+    },
+    {
+        "id": 48,
+        "functionName": "ProjectileMaxRange (initialVelocity, angleInDeg float64)",
+        "functionDescription": "",
+        "functionFormula": "(initialVelocity^2 * Sine(2 * angleInDeg)) / g",
+        "measurementUnit": "m",
+        "context": ""
+    },
+    {
+        "id": 49,
+        "functionName": "RelativDist (nonTravelerDistance, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "nonTravelerDistance/Y (Y=Lorentz factor)",
+        "measurementUnit": "m",
+        "context": ""
+    },
+    {
+        "id": 50,
+        "functionName": "RelativMass (travelerMass, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "mass*Y (Y=Lorentz factor)",
+        "measurementUnit": "kg",
+        "context": ""
+    },
+    {
+        "id": 51,
+        "functionName": "RelativMomentum (travelerMomentum, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "(travelerMomentum * speed)*Y (Y=Lorentz factor)",
+        "measurementUnit": "kg*m/s",
+        "context": ""
+    },
+    {
+        "id": 52,
+        "functionName": "RelativTime (travelerTime, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "travelerTime/Y (Y=Lorentz factor)",
+        "measurementUnit": "s",
+        "context": ""
+    },
+    {
+        "id": 53,
+        "functionName": "Resistance (resistance, currentIntensity float64)",
+        "functionDescription": "",
+        "functionFormula": "see 'JouleHeating'",
+        "measurementUnit": "W",
+        "context": ""
+    },
+    {
+        "id": 54,
         "functionName": "",
         "functionDescription": "",
         "functionFormula": "",
