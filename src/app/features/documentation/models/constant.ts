@@ -3,6 +3,7 @@ export interface Constant {
     constantName: string;
     constantDescription: string;
     constantValue: number;
+    exponential: string;
     measurementUnit: string;
     context: string;
 }
