@@ -225,6 +225,94 @@
     },
     {
         "id": 29,
+        "functionName": "LawHagenPoiseuille (fluidViscosity, pipeLength, flowRate, pipeRadius float64)",
+        "functionDescription": "",
+        "functionFormula": "[(8 * fluidViscosity * pipeLength * flowRate) / (greekPi * pipeRadius^4)]",
+        "measurementUnit": "Pascal",
+        "context": ""
+    },
+    {
+        "id": 30,
+        "functionName": "LawOhm1 (resistance, currentIntensity float64)",
+        "functionDescription": "",
+        "functionFormula": "resistance * currentIntensity",
+        "measurementUnit": "V",
+        "context": ""
+    },
+    {
+        "id": 31,
+        "functionName": "LawOhm2 (resistivity, length, area float64)",
+        "functionDescription": "",
+        "functionFormula": "resistivity * length / area",
+        "measurementUnit": "Ohm",
+        "context": ""
+    },
+    {
+        "id": 32,
+        "functionName": "LawStokes (fluidViscosity, radius, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "6 * greekPi * fluidViscosity * radius * speed",
+        "measurementUnit": "N",
+        "context": ""
+    },
+    {
+        "id": 33,
+        "functionName": "LorentzFactor (speed float64)",
+        "functionDescription": "",
+        "functionFormula": "1/{[1-(speed^2)/(C^2)]^(1/2)}",
+        "measurementUnit": "None",
+        "context": ""
+    },
+    {
+        "id": 34,
+        "functionName": "MechanicalEner (potential, kinetic float64)",
+        "functionDescription": "",
+        "functionFormula": "potential + kinetic",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 35,
+        "functionName": "Momentum (mass, speed float64)",
+        "functionDescription": "",
+        "functionFormula": "mass * speed",
+        "measurementUnit": "kg*m/s",
+        "context": ""
+    },
+    {
+        "id": 36,
+        "functionName": "NetHeatEnergyTransfer (thermalConductivityConstant, area, kelvinDeg_HeatVariation, time, width float64)",
+        "functionDescription": "",
+        "functionFormula": "-1 * (thermalConductivityConstant * area * kelvinDeg_HeatVariation * time) / (width)",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 37,
+        "functionName": "NormalForce (mass, angleInDeg float64)",
+        "functionDescription": "",
+        "functionFormula": "mass * Cosine(angleInDeg/radiant)",
+        "measurementUnit": "N",
+        "context": ""
+    },
+    {
+        "id": 38,
+        "functionName": "PendulumPeriod (pendulumLength float64)",
+        "functionDescription": "",
+        "functionFormula": "(2 * greekPi) * (pendulumLength/G)^(1/2)",
+        "measurementUnit": "s",
+        "context": ""
+    },
+    {
+        "id": 39,
+        "functionName": "PhotoElettricEffect (frequence float64)",
+        "functionDescription": "",
+        "functionFormula": "Planck constant * frequence",
+        "measurementUnit": "J",
+        "context": ""
+    },
+    {
+        "id": 39,
         "functionName": "",
         "functionDescription": "",
         "functionFormula": "",
@@ -232,3 +320,4 @@
         "context": ""
     }
 ]
+
