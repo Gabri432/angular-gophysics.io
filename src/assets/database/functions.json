@@ -29,7 +29,7 @@
         "functionDescription": "Centripetal Force.",
         "functionFormula": "(mass * speed^2) / radius",
         "measurementUnit": "N",
-        "context": "gravity"
+        "context": "classical"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "functionDescription": "Formula for the density.",
         "functionFormula": "weight/volume",
         "measurementUnit": "kg/m^3",
-        "context": "gravity"
+        "context": "classical"
     },
     {
         "id": 6,
@@ -170,7 +170,7 @@
     {
         "id": 22,
         "functionName": "HorizontalPos (velocity, timeInSeconds, angleInDeg float64)",
-        "functionDescription": "Horizontal Position.",
+        "functionDescription": "Horizontal Position of projectile after a certain time.",
         "functionFormula": "velocity * timeInSeconds * Cosine(angleInDeg)",
         "measurementUnit": "m",
         "context": "classical"
@@ -285,7 +285,7 @@
         "functionDescription": "Net Heat Energy Transfer formula.",
         "functionFormula": "-1 * (thermalConductivityConstant * area * kelvinDeg_HeatVariation * time) / (width)",
         "measurementUnit": "J",
-        "context": ""
+        "context": "thermodynamics"
     },
     {
         "id": 37,
@@ -333,7 +333,7 @@
         "functionDescription": "Potential Gravitational Energy formula.",
         "functionFormula": "mass * g * height",
         "measurementUnit": "J",
-        "context": "classical"
+        "context": "gravity"
     },
     {
         "id": 43,
@@ -357,7 +357,7 @@
         "functionDescription": "Pressure formula.",
         "functionFormula": "normalForce / area",
         "measurementUnit": "Pascal",
-        "context": "fluids"
+        "context": "thermodynamics"
     },
     {
         "id": 46,
@@ -421,7 +421,7 @@
         "functionDescription": "Resistance (or Joule Heating) formula.",
         "functionFormula": "see 'JouleHeating'",
         "measurementUnit": "W",
-        "context": "electromagnetism"
+        "context": "thermodynamics"
     },
     {
         "id": 54,
@@ -458,7 +458,7 @@
     {
         "id": 58,
         "functionName": "VerticalPos (velocity, timeInSeconds, angleInDeg float64)",
-        "functionDescription": "Vertical Position formula.",
+        "functionDescription": "Vertical Position of projectile after a certain time.",
         "functionFormula": "velocity * timeInSeconds * Sine(angleInDeg) - (1/2) *g*(timeInSeconds^2)",
         "measurementUnit": "m",
         "context": "classical"
