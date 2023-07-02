@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { DocumentationPageComponent } from './features/documentation/documentation-page/documentation-page.component';
 import { DisplayerComponent } from './features/documentation/components/displayer/displayer.component';
 import { CoreModule } from './core/core.module';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     NoopAnimationsModule,
     HttpClientModule,
-    CoreModule
+    CoreModule,
+    MatSelectModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
