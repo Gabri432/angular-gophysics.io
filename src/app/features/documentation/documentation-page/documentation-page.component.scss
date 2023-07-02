@@ -23,9 +23,6 @@
         font-weight: bold;
         font-size: 22px;
     }
-    .mat-form-field-appearance-outline .mat-form-field-outline {
-        color: style.$blue-gophysics !important;
-      }
 }
 @media only screen and (max-width: 899px){
     #documentation-page {
@@ -42,5 +39,8 @@
     .text {
         width: 92%;
         padding: 4%;
+    }
+    mat-form-field {
+        width: 100%;
     }
 }
