@@ -6,7 +6,7 @@
         "constantValue": 9.81,
         "exponential":0
         ,
-        "measurementUnit": "m/s^2",
+        "measurementUnit": "m ÷ s^2",
         "context": "gravity"
     },
     {
@@ -15,7 +15,7 @@
         "constantDescription": "Light Speed (on vacuum).",
         "constantValue": 299792452,
         "exponential":0,
-        "measurementUnit": "m/s",
+        "measurementUnit": "m ÷ s",
         "context": "relativity"
     },
     {
@@ -42,7 +42,7 @@
         "constantDescription": "Speed of sound.",
         "constantValue": 340,
         "exponential":0,
-        "measurementUnit": "m/s",
+        "measurementUnit": "m ÷ s",
         "context": "classical"
     },
     {
@@ -123,7 +123,7 @@
         "constantDescription": "Universal Gravity Constant.",
         "constantValue": 6.67,
         "exponential":-11,
-        "measurementUnit": "(N*m^2)/kg^2",
+        "measurementUnit": "(N x m^2) ÷ kg^2",
         "context": "gravity"
     },
     {
@@ -141,7 +141,7 @@
         "constantDescription": "Hubble constant.",
         "constantValue": 69.8,
         "exponential":0,
-        "measurementUnit": "(km/s)/Mpc (Mega parsec)",
+        "measurementUnit": "(km ÷ s) ÷ Mpc (Mega parsec)",
         "context": "relativity"
     },
     {
@@ -186,7 +186,7 @@
         "constantDescription": "R constant.",
         "constantValue": 8.316,
         "exponential":0,
-        "measurementUnit": "J / (Mole * °K)",
+        "measurementUnit": "J  ÷  (Mole x °K)",
         "context": "thermodynamics"
     },
     {
@@ -204,7 +204,7 @@
         "constantDescription": "Planck constant.",
         "constantValue": 6.6260693,
         "exponential":-34,
-        "measurementUnit": "(m^2 * kg) / (seconds)",
+        "measurementUnit": "(m^2 x kg)  ÷  (seconds)",
         "context": "relativity"
     },
     {
@@ -240,7 +240,7 @@
         "constantDescription": "Stefan-Boltzmann Constant.",
         "constantValue": 5.67,
         "exponential":-8,
-        "measurementUnit": "W/(m^2 * (°K)^4)",
+        "measurementUnit": "W ÷ (m^2 x (°K)^4)",
         "context": "thermodynamics"
     },
     {
@@ -249,7 +249,7 @@
         "constantDescription": "Dielettric constant (Vacuum Permittivity).",
         "constantValue": 8.854,
         "exponential":-12,
-        "measurementUnit": "Faraday/m",
+        "measurementUnit": "Faraday ÷ m",
         "context": "electromagnetism"
     },
     {
@@ -258,7 +258,7 @@
         "constantDescription": "Vacuum Permeability.",
         "constantValue": 1.256637,
         "exponential":-6,
-        "measurementUnit": "Henry/meter or N/A (Newton per Ampere)",
+        "measurementUnit": "Henry ÷ meter or N ÷ A (Newton per Ampere)",
         "context": "electromagnetism"
     },
     {
@@ -276,7 +276,7 @@
         "constantDescription": "Silver resistivity (at 20 °C).",
         "constantValue": 1.59,
         "exponential":-8,
-        "measurementUnit": "Ohm*m",
+        "measurementUnit": "Ohm x m",
         "context": "electromagnetism"
     },
     {
@@ -285,7 +285,7 @@
         "constantDescription": "Copper resistivity (at 20 °C).",
         "constantValue": 1.68,
         "exponential":-8,
-        "measurementUnit": "Ohm*m",
+        "measurementUnit": "Ohm x m",
         "context": "electromagnetism"
     },
     {
@@ -294,7 +294,7 @@
         "constantDescription": "Iron resistivity (at 20 °C).",
         "constantValue": 9.7,
         "exponential":-8,
-        "measurementUnit": "Ohm*m",
+        "measurementUnit": "Ohm x m",
         "context": "electromagnetism"
     },
     {
@@ -303,7 +303,7 @@
         "constantDescription": "Steel resistivity (at 20 °C).",
         "constantValue": 69.0,
         "exponential":-8,
-        "measurementUnit": "Ohm*m",
+        "measurementUnit": "Ohm x m",
         "context": "electromagnetism"
     },
     {
@@ -312,7 +312,7 @@
         "constantDescription": "Proportionality constant.",
         "constantValue": 2.7,
         "exponential":-7,
-        "measurementUnit": "N/(A^2)",
+        "measurementUnit": "N ÷ (A^2)",
         "context": "electromagnetism"
     },
     {
@@ -348,7 +348,7 @@
         "constantDescription": "Air Density.",
         "constantValue": 1.29,
         "exponential":0,
-        "measurementUnit": "kg/(m^3)",
+        "measurementUnit": "kg ÷ (m^3)",
         "context": "electromagnetism"
     },
     {
@@ -357,7 +357,7 @@
         "constantDescription": "Water Density.",
         "constantValue": 1,
         "exponential":3,
-        "measurementUnit": "kg/(m^3)",
+        "measurementUnit": "kg ÷ (m^3)",
         "context": "electromagnetism"
     },
     {
@@ -393,7 +393,7 @@
         "constantDescription": "Water viscosity at 0 °C.",
         "constantValue": 1.8,
         "exponential":-3,
-        "measurementUnit": "Pascal*s",
+        "measurementUnit": "Pascal x s",
         "context": "fluids"
     },
     {
@@ -402,7 +402,7 @@
         "constantDescription": "Water viscosity at 20 °C.",
         "constantValue": 10,
         "exponential":-3,
-        "measurementUnit": "Pascal*s",
+        "measurementUnit": "Pascal x s",
         "context": "fluids"
     },
     {
@@ -411,7 +411,7 @@
         "constantDescription": "Copper conductivity.",
         "constantValue": 401,
         "exponential":0,
-        "measurementUnit": "W/(m * °K)",
+        "measurementUnit": "W ÷ (m x °K)",
         "context": "electromagnetism"
     },
     {
@@ -420,7 +420,7 @@
         "constantDescription": "Gold conductivity.",
         "constantValue": 318,
         "exponential":0,
-        "measurementUnit": "W/(m * °K)",
+        "measurementUnit": "W ÷ (m x °K)",
         "context": "electromagnetism"
     },
     {
@@ -429,7 +429,7 @@
         "constantDescription": "Iron conductivity.",
         "constantValue": 83.5,
         "exponential":0,
-        "measurementUnit": "W/(m * °K)",
+        "measurementUnit": "W ÷ (m x °K)",
         "context": "electromagnetism"
     },
     {
@@ -438,7 +438,7 @@
         "constantDescription": "Air conductivity.",
         "constantValue": 0.024,
         "exponential":0,
-        "measurementUnit": "W/(m * °K)",
+        "measurementUnit": "W ÷ (m x °K)",
         "context": "electromagnetism"
     }
 ]
