@@ -17,7 +17,7 @@ export class DocumentationPageComponent {
   functions: Array<Function> = [];
   constants: Array<Constant> = [];
   libraries: Array<String> = [
-    "all","classical", "electromagnetism", "fluids", "gravity", "relativity", "thermodynamics", "math"
+    "all","classical", "electromagnetism", "fluids", "gravity", "relativity", "thermodynamics"
   ];
   selected = 'all';
 
@@ -25,24 +25,25 @@ export class DocumentationPageComponent {
   };
 
   ngOnInit() {
-    this.loadFunctions().subscribe(data =>{
+    this.loadFunctions();
+    this.loadConstants();
+  }
+
+  loadFunctions(): void {
+    this.http.get<Function[]>((this.functionsUrl)).subscribe(data =>{
       this.functions = data;
     })
-    this.loadConstants().subscribe(data =>{
+  }
+
+  loadConstants(): void {
+    this.http.get<Constant[]>((this.constantsUrl)).subscribe(data =>{
       this.constants = data;
     })
   }
 
-  loadFunctions(): Observable<Function[]> {
-    return this.http.get<Function[]>((this.functionsUrl))
-  }
-
-  loadConstants(): Observable<Constant[]> {
-    return this.http.get<Constant[]>((this.constantsUrl))
-  }
-
   applyFilter(): void {
-    if (this.selected == 'all') this.ngOnInit();
+    if (this.selected == 'all') this.loadFunctions();
+    this.loadFunctions();
     this.functions = this.functions.filter(object => {
       return object['context'] == this.selected
     });

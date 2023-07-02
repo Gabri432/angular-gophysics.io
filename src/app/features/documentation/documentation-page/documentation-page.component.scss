@@ -23,6 +23,9 @@
         font-weight: bold;
         font-size: 22px;
     }
+    .mat-mdc-form-field-focus-overlay {
+        background-color: orange !important;
+    }
 }
 @media only screen and (max-width: 899px){
     #documentation-page {
