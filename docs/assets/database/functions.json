@@ -3,47 +3,47 @@
         "id": 1,
         "functionName": "Acceleration (force, mass float64)",
         "functionDescription": "Formula for the acceleration.",
-        "functionFormula": "force/mass",
-        "measurementUnit": "m/s^2",
+        "functionFormula": "force÷ mass",
+        "measurementUnit": "m÷ s^2",
         "context": "classical"
     },
     {
         "id": 3,
         "functionName": "AngularFreq (time float64)",
         "functionDescription": "Formula for the angular frequency.",
-        "functionFormula": "(2 * greekPi) / time",
-        "measurementUnit": "rad/s",
+        "functionFormula": "(2 x greekPi) ÷  time",
+        "measurementUnit": "rad÷ s",
         "context": "classical"
     },
     {
         "id": 3,
         "functionName": "CentripetalAccel (speed, radius float64)",
         "functionDescription": "Centripetal acceleration.",
-        "functionFormula": "(speed^2) / radius",
-        "measurementUnit": "m/s^2",
+        "functionFormula": "(speed^2) ÷  radius",
+        "measurementUnit": "m÷ s^2",
         "context": "classical"
     },
     {
         "id": 4,
         "functionName": "CentripetalForce (mass, speed, radius float64)",
         "functionDescription": "Centripetal Force.",
-        "functionFormula": "(mass * speed^2) / radius",
+        "functionFormula": "(mass x speed^2) ÷  radius",
         "measurementUnit": "N",
-        "context": "gravity"
+        "context": "classical"
     },
     {
         "id": 5,
         "functionName": "Density (weight, volume float64)",
         "functionDescription": "Formula for the density.",
-        "functionFormula": "weight/volume",
-        "measurementUnit": "kg/m^3",
-        "context": "gravity"
+        "functionFormula": "weight÷ volume",
+        "measurementUnit": "kg÷ m^3",
+        "context": "classical"
     },
     {
         "id": 6,
         "functionName": "DopplerCloser (speed, frequence float64)",
         "functionDescription": "Doppler Effect when subject gets closer to source.",
-        "functionFormula": "(1 + (speed / 340)) * frequence",
+        "functionFormula": "(1 + (speed ÷  340)) x frequence",
         "measurementUnit": "hertz",
         "context": "classical"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "functionName": "DopplerFarer (speed, frequence float64)",
         "functionDescription": "Doppler Effect when subject gets farer from source.",
-        "functionFormula": "(1 - (speed / 340)) * frequence",
+        "functionFormula": "(1 - (speed ÷  340)) x frequence",
         "measurementUnit": "hertz",
         "context": "classical"
     },
@@ -59,23 +59,23 @@
         "id": 8,
         "functionName": "DriftSpeed (intensity, chargeCarrierDensity, area, particleCharge float64)",
         "functionDescription": "Formula for the drift speed.",
-        "functionFormula": "intensity / (chargeCarrierDensity * area * particleCharge)",
-        "measurementUnit": "m/s",
+        "functionFormula": "intensity ÷  (chargeCarrierDensity x area x particleCharge)",
+        "measurementUnit": "m÷ s",
         "context": "electromagnetism"
     },
     {
         "id": 9,
         "functionName": "ElectricField (charge, radius float64)",
         "functionDescription": "Electric Field.",
-        "functionFormula": "(charge) / (4 * greekPi * Vacuum Premittivity constant * radius^2)",
-        "measurementUnit": "N/C",
+        "functionFormula": "(charge) ÷  (4 x greekPi x Vacuum Premittivity constant x radius^2)",
+        "measurementUnit": "N÷ C",
         "context": "electromagnetism"
     },
     {
         "id": 10,
         "functionName": "ElectricPotentDiff (charge, distance1, distance2 float64)",
         "functionDescription": "Electric Potential Difference, or Voltage.",
-        "functionFormula": "(charge / (4 * greekPi * Vacuum Premittivity constant)) * ((1 / distance1) - (1 / distance2))",
+        "functionFormula": "(charge ÷  (4 x greekPi x Vacuum Premittivity constant)) x ((1 ÷  distance1) - (1 ÷  distance2))",
         "measurementUnit": "V",
         "context": "electromagnetism"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "functionName": "ElectricPotentEnergyDiff (charge1, charge2, distance1, distance2 float64)",
         "functionDescription": "Electric Potential Energy Difference.",
-        "functionFormula": "[(charge1 * charge2) / (4 * greekPi * Vacuum Premittivity constant)] * [(1 / distance1) - (1 / distance2)]",
+        "functionFormula": "[(charge1 x charge2) ÷  (4 x greekPi x Vacuum Premittivity constant)] x [(1 ÷  distance1) - (1 ÷  distance2)]",
         "measurementUnit": "J",
         "context": "electromagnetism"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "functionName": "ElectricPotential (charge, distance float64)",
         "functionDescription": "Electric Potential.",
-        "functionFormula": "(charge) / (4 * greekPi * Vacuum Premittivity constant * distance)",
+        "functionFormula": "(charge) ÷  (4 x greekPi x Vacuum Premittivity constant x distance)",
         "measurementUnit": "V",
         "context": "electromagnetism"
     },
@@ -99,31 +99,31 @@
         "id": 13,
         "functionName": "EnergyDens (electricFieldModule float64)",
         "functionDescription": "Density of Energy.",
-        "functionFormula": "(1 / 2) * Vacuum Premittivity constant * (electricFieldModule * electricFieldModule)",
-        "measurementUnit": "J/m^3",
+        "functionFormula": "(1 ÷  2) x Vacuum Premittivity constant x (electricFieldModule x electricFieldModule)",
+        "measurementUnit": "J÷ m^3",
         "context": "electromagnetism"
     },
     {
         "id": 14,
         "functionName": "EnergyDensity (electricField, magneticField float64)",
         "functionDescription": "Density of Energy.",
-        "functionFormula": "(1/2) * Dieletric constant on vacuum * ( electricField * electricField ) + ( 1/(2 * Vacuum Premittivity constant))*(magneticField^2)",
-        "measurementUnit": "J/m^3",
+        "functionFormula": "(1÷ 2) x Dieletric constant on vacuum x ( electricField x electricField ) + ( 1÷ (2 x Vacuum Premittivity constant)) x (magneticField^2)",
+        "measurementUnit": "J÷ m^3",
         "context": "electromagnetism"
     },
     {
         "id": 15,
         "functionName": "EscapeSpeed (mass, radius float64)",
         "functionDescription": "Escape Speed formula.",
-        "functionFormula": "[(2*G*mass) / (radius)]^(1/2)",
-        "measurementUnit": "m/s",
+        "functionFormula": "[(2 x G x mass) ÷  (radius)]^(1÷ 2)",
+        "measurementUnit": "m÷ s",
         "context": "gravity"
     },
     {
         "id": 16,
         "functionName": "Force (mass, acceleration float64)",
         "functionDescription": "Formula for the Force.",
-        "functionFormula": "mass*acceleration",
+        "functionFormula": "mass x acceleration",
         "measurementUnit": "N",
         "context": "classical"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "functionName": "Frequency (speed, distance float64)",
         "functionDescription": "Frequency formula.",
-        "functionFormula": "speed / distance",
+        "functionFormula": "speed ÷  distance",
         "measurementUnit": "hertz",
         "context": "classical"
     },
@@ -139,39 +139,39 @@
         "id": 18,
         "functionName": "GaussFlux (charge float64)",
         "functionDescription": "Gaussian Flux formula.",
-        "functionFormula": "charge / Vacuum Premittivity constant",
-        "measurementUnit": "N*m^2/C",
+        "functionFormula": "charge ÷  Vacuum Premittivity constant",
+        "measurementUnit": "N x m^2÷ C",
         "context": "electromagnetism"
     },
     {
         "id": 19,
         "functionName": "GravAttract (mass1, mass2, distance float64)",
         "functionDescription": "Gravitational Attraction formula.",
-        "functionFormula": "(G * mass1 * mass2) / (distance^2)",
-        "measurementUnit": "m/s^2",
+        "functionFormula": "(G x mass1 x mass2) ÷  (distance^2)",
+        "measurementUnit": "m÷ s^2",
         "context": "gravity"
     },
     {
         "id": 20,
         "functionName": "GravField (mass, distance float64)",
         "functionDescription": "Gravitational Field formula.",
-        "functionFormula": "(G * mass) / (distance^2)",
-        "measurementUnit": "m/s^2",
+        "functionFormula": "(G x mass) ÷  (distance^2)",
+        "measurementUnit": "m÷ s^2",
         "context": "gravity"
     },
     {
         "id": 21,
-        "functionName": "HeatFlux (thermalConductivityConstant, startingTemperatureKelvin, finalTemperatureKelvin, distance float64)",
+        "functionName": "HeatFlux (thermal ConductivityConstant, starting TemperatureKelvin, final TemperatureKelvin, distance float64)",
         "functionDescription": "Heat Flux formula.",
-        "functionFormula": "-1 * thermalConductivityConstant * (finalTemperatureKelvin - startingTemperatureKelvin) / distance",
+        "functionFormula": "-1 x thermal ConductivityConstant x (final TemperatureKelvin - starting TemperatureKelvin) ÷  distance",
         "measurementUnit": "W",
         "context": "thermodynamics"
     },
     {
         "id": 22,
         "functionName": "HorizontalPos (velocity, timeInSeconds, angleInDeg float64)",
-        "functionDescription": "Horizontal Position.",
-        "functionFormula": "velocity * timeInSeconds * Cosine(angleInDeg)",
+        "functionDescription": "Horizontal Position of projectile after a certain time.",
+        "functionFormula": "velocity x timeInSeconds x Cosine(angleInDeg)",
         "measurementUnit": "m",
         "context": "classical"
     },
@@ -179,15 +179,15 @@
         "id": 23,
         "functionName": "Intensity (power, area float64)",
         "functionDescription": "Intensity formula.",
-        "functionFormula": "power / area",
-        "measurementUnit": "W/m^2",
+        "functionFormula": "power ÷  area",
+        "measurementUnit": "W÷ m^2",
         "context": "classical"
     },
     {
         "id": 24,
         "functionName": "JouleHeating (resistance, currentIntensity float64)",
         "functionDescription": "Joule Heating formula.",
-        "functionFormula": "resistance * (currentIntensity^2)",
+        "functionFormula": "resistance x (currentIntensity^2)",
         "measurementUnit": "W",
         "context": "thermodynamics"
     },
@@ -195,7 +195,7 @@
         "id": 25,
         "functionName": "KineticEner (mass, speed float64)",
         "functionDescription": "Kinetic Energy formula.",
-        "functionFormula": "(1 / 2) * mass * (speed^2)",
+        "functionFormula": "(1 ÷  2) x mass x (speed^2)",
         "measurementUnit": "J",
         "context": "classical"
     },
@@ -203,7 +203,7 @@
         "id": 26,
         "functionName": "LawCoulomb (charge1, charge2, distance float64)",
         "functionDescription": "Coulomb law formula.",
-        "functionFormula": "COULOMB constant * (|charge1| * |charge2|) / (distance^2)",
+        "functionFormula": "COULOMB constant x (|charge1| x |charge2|) ÷  (distance^2)",
         "measurementUnit": "N",
         "context": "electromagnetism"
     },
@@ -211,7 +211,7 @@
         "id": 27,
         "functionName": "LawGayLussacPressure (pressure, celsiusDeg_Temperature float64)",
         "functionDescription": "Gay-Lussac Pressure Law.",
-        "functionFormula": "pressure * (1 + (1/273)*(celsiusDeg_Temperature))",
+        "functionFormula": "pressure x (1 + (1÷ 273) x (celsiusDeg_Temperature))",
         "measurementUnit": "Pascal",
         "context": "thermodynamics"
     },
@@ -219,7 +219,7 @@
         "id": 28,
         "functionName": "LawGayLussacVolume (volume, celsiusDeg_Temperature float64)",
         "functionDescription": "Gay-Lussac Volume Law.",
-        "functionFormula": "volume * (1 + (1/273)*(celsiusDeg_Temperature))",
+        "functionFormula": "volume x (1 + (1÷273) x (celsiusDeg_Temperature))",
         "measurementUnit": "m^3",
         "context": "thermodynamics"
     },
@@ -227,7 +227,7 @@
         "id": 29,
         "functionName": "LawHagenPoiseuille (fluidViscosity, pipeLength, flowRate, pipeRadius float64)",
         "functionDescription": "Hagen-Poiseuille Law.",
-        "functionFormula": "[(8 * fluidViscosity * pipeLength * flowRate) / (greekPi * pipeRadius^4)]",
+        "functionFormula": "[(8 x fluidViscosity x pipeLength x flowRate) ÷ (greekPi x pipeRadius^4)]",
         "measurementUnit": "Pascal",
         "context": "fluids"
     },
@@ -235,7 +235,7 @@
         "id": 30,
         "functionName": "LawOhm1 (resistance, currentIntensity float64)",
         "functionDescription": "First Ohm Law.",
-        "functionFormula": "resistance * currentIntensity",
+        "functionFormula": "resistance x currentIntensity",
         "measurementUnit": "V",
         "context": "electromagnetism"
     },
@@ -243,7 +243,7 @@
         "id": 31,
         "functionName": "LawOhm2 (resistivity, length, area float64)",
         "functionDescription": "Second Ohm Law.",
-        "functionFormula": "resistivity * length / area",
+        "functionFormula": "resistivity x length ÷ area",
         "measurementUnit": "Ohm",
         "context": "electromagnetism"
     },
@@ -251,7 +251,7 @@
         "id": 32,
         "functionName": "LawStokes (fluidViscosity, radius, speed float64)",
         "functionDescription": "Stokes Law.",
-        "functionFormula": "6 * greekPi * fluidViscosity * radius * speed",
+        "functionFormula": "6 x greekPi x fluidViscosity x radius x speed",
         "measurementUnit": "N",
         "context": "fluids"
     },
@@ -259,7 +259,7 @@
         "id": 33,
         "functionName": "LorentzFactor (speed float64)",
         "functionDescription": "Lorentz Factor formula.",
-        "functionFormula": "1/{[1-(speed^2)/(C^2)]^(1/2)}",
+        "functionFormula": "1÷{[1-(speed^2) ÷ (C^2)]^(1÷2)}",
         "measurementUnit": "None",
         "context": "relativity"
     },
@@ -275,23 +275,23 @@
         "id": 35,
         "functionName": "Momentum (mass, speed float64)",
         "functionDescription": "Momentum Formula.",
-        "functionFormula": "mass * speed",
-        "measurementUnit": "kg*m/s",
+        "functionFormula": "mass x speed",
+        "measurementUnit": "kg x m ÷ s",
         "context": "classical"
     },
     {
         "id": 36,
-        "functionName": "NetHeatEnergyTransfer (thermalConductivityConstant, area, kelvinDeg_HeatVariation, time, width float64)",
+        "functionName": "NetHeatEnergyTransfer (thermalConductivity Constant, area, kelvinDeg_HeatVariation, time, width float64)",
         "functionDescription": "Net Heat Energy Transfer formula.",
-        "functionFormula": "-1 * (thermalConductivityConstant * area * kelvinDeg_HeatVariation * time) / (width)",
+        "functionFormula": "-1 x (thermalConductivity Constant x area x kelvinDeg_HeatVariation x time) ÷ (width)",
         "measurementUnit": "J",
-        "context": ""
+        "context": "thermodynamics"
     },
     {
         "id": 37,
         "functionName": "NormalForce (mass, angleInDeg float64)",
         "functionDescription": "Normal force formula.",
-        "functionFormula": "mass * Cosine(angleInDeg/radiant)",
+        "functionFormula": "mass x Cosine(angleInDeg÷radiant)",
         "measurementUnit": "N",
         "context": "classical"
     },
@@ -299,7 +299,7 @@
         "id": 38,
         "functionName": "PendulumPeriod (pendulumLength float64)",
         "functionDescription": "Pendulum Period formula.",
-        "functionFormula": "(2 * greekPi) * (pendulumLength/G)^(1/2)",
+        "functionFormula": "(2 x greekPi) x (pendulumLength÷G)^(1÷2)",
         "measurementUnit": "s",
         "context": "classical"
     },
@@ -307,7 +307,7 @@
         "id": 39,
         "functionName": "PhotoElettricEffect (frequence float64)",
         "functionDescription": "Photo Electric Effect formula.",
-        "functionFormula": "Planck constant * frequence",
+        "functionFormula": "Planck constant x frequence",
         "measurementUnit": "J",
         "context": "relativity"
     },
@@ -315,7 +315,7 @@
         "id": 40,
         "functionName": "PotentialElasticEner (elasticConstant, distance float64)",
         "functionDescription": "Potential Elastic Energy formula.",
-        "functionFormula": "(1 / 2) * elasticConstant * (distance^2)",
+        "functionFormula": "(1 ÷ 2) x elasticConstant x (distance^2)",
         "measurementUnit": "J",
         "context": "classical"
     },
@@ -323,7 +323,7 @@
         "id": 41,
         "functionName": "PotentialEner (mass, acceleration, height float64)",
         "functionDescription": "Potential Energy.",
-        "functionFormula": "mass * acceleration * height",
+        "functionFormula": "mass x acceleration x height",
         "measurementUnit": "J",
         "context": "classical"
     },
@@ -331,15 +331,15 @@
         "id": 42,
         "functionName": "PotentialGravEner (mass, height float64)",
         "functionDescription": "Potential Gravitational Energy formula.",
-        "functionFormula": "mass * g * height",
+        "functionFormula": "mass x g x height",
         "measurementUnit": "J",
-        "context": "classical"
+        "context": "gravity"
     },
     {
         "id": 43,
         "functionName": "PotentialGravEner2 (mass1, mass2, distance float64)",
         "functionDescription": "Second Potential Gravitational Energy formula.",
-        "functionFormula": "-1 * [(G * mass1 * mass2) / (distance)]",
+        "functionFormula": "-1 x [(G x mass1 x mass2) ÷  (distance)]",
         "measurementUnit": "J",
         "context": "gravity"
     },
@@ -347,7 +347,7 @@
         "id": 44,
         "functionName": "Power (work, time float64)",
         "functionDescription": "Power formula.",
-        "functionFormula": "work / time",
+        "functionFormula": "work ÷  time",
         "measurementUnit": "W",
         "context": "classical"
     },
@@ -355,15 +355,15 @@
         "id": 45,
         "functionName": "Pressure (normalForce, area float64)",
         "functionDescription": "Pressure formula.",
-        "functionFormula": "normalForce / area",
+        "functionFormula": "normalForce ÷  area",
         "measurementUnit": "Pascal",
-        "context": "fluids"
+        "context": "thermodynamics"
     },
     {
         "id": 46,
         "functionName": "ProjectileFlightTime (initialVelocity, angleInDeg float64)",
         "functionDescription": "Projectile Flight Time formula.",
-        "functionFormula": "2 * initialVelocity * Sine(angleInDeg)",
+        "functionFormula": "2 x initialVelocity x Sine(angleInDeg)",
         "measurementUnit": "s",
         "context": "classical"
     },
@@ -371,7 +371,7 @@
         "id": 47,
         "functionName": "ProjectileMaxHeight (initialVelocity, angleInDeg float64)",
         "functionDescription": "Projectile Max Height formula.",
-        "functionFormula": "(initialVelocity^2 * SineSquare(angleInDeg)) / (2 * g)",
+        "functionFormula": "(initialVelocity^2 x SineSquare(angleInDeg)) ÷  (2 x g)",
         "measurementUnit": "m",
         "context": "classical"
     },
@@ -379,7 +379,7 @@
         "id": 48,
         "functionName": "ProjectileMaxRange (initialVelocity, angleInDeg float64)",
         "functionDescription": "Projectile Max Range formula.",
-        "functionFormula": "(initialVelocity^2 * Sine(2 * angleInDeg)) / g",
+        "functionFormula": "(initialVelocity^2 x Sine(2 x angleInDeg)) ÷  g",
         "measurementUnit": "m",
         "context": "classical"
     },
@@ -387,7 +387,7 @@
         "id": 49,
         "functionName": "RelativDist (nonTravelerDistance, speed float64)",
         "functionDescription": "Relative Distance formula.",
-        "functionFormula": "nonTravelerDistance/Y (Y=Lorentz factor)",
+        "functionFormula": "nonTravelerDistance ÷ Y (Y=Lorentz factor)",
         "measurementUnit": "m",
         "context": "relativity"
     },
@@ -395,7 +395,7 @@
         "id": 50,
         "functionName": "RelativMass (travelerMass, speed float64)",
         "functionDescription": "Relative Mass formula.",
-        "functionFormula": "mass*Y (Y=Lorentz factor)",
+        "functionFormula": "mass x Y (Y=Lorentz factor)",
         "measurementUnit": "kg",
         "context": "relativity"
     },
@@ -403,15 +403,15 @@
         "id": 51,
         "functionName": "RelativMomentum (travelerMomentum, speed float64)",
         "functionDescription": "Relative Momentum formula.",
-        "functionFormula": "(travelerMomentum * speed)*Y (Y=Lorentz factor)",
-        "measurementUnit": "kg*m/s",
+        "functionFormula": "(travelerMomentum x speed) x Y (Y=Lorentz factor)",
+        "measurementUnit": "kg x m ÷  s",
         "context": "relativity"
     },
     {
         "id": 52,
         "functionName": "RelativTime (travelerTime, speed float64)",
         "functionDescription": "Relative Time formula.",
-        "functionFormula": "travelerTime/Y (Y=Lorentz factor)",
+        "functionFormula": "travelerTime ÷  Y (Y=Lorentz factor)",
         "measurementUnit": "s",
         "context": "relativity"
     },
@@ -421,45 +421,45 @@
         "functionDescription": "Resistance (or Joule Heating) formula.",
         "functionFormula": "see 'JouleHeating'",
         "measurementUnit": "W",
-        "context": "electromagnetism"
+        "context": "thermodynamics"
     },
     {
         "id": 54,
         "functionName": "SelfCapacitance (charge, potential float64)",
         "functionDescription": "Self Capacitance formula.",
-        "functionFormula": "charge / potential",
-        "measurementUnit": "C/V",
+        "functionFormula": "charge ÷  potential",
+        "measurementUnit": "C ÷  V",
         "context": "electromagnetism"
     },
     {
         "id": 55,
         "functionName": "SelfCapacitanceSphere (radius float64)",
         "functionDescription": "Sphere Self Capacitance formula.",
-        "functionFormula": "4 * greekPi * Vacuum Premittivity constant * radius",
-        "measurementUnit": "C/V",
+        "functionFormula": "4 x greekPi x Vacuum Premittivity constant x radius",
+        "measurementUnit": "C ÷  V",
         "context": "electromagnetism"
     },
     {
         "id": 56,
         "functionName": "Speed (distance, time float64)",
         "functionDescription": "Speed formula.",
-        "functionFormula": "distance/time",
-        "measurementUnit": "m/s",
+        "functionFormula": "distance ÷  time",
+        "measurementUnit": "m ÷  s",
         "context": "classical"
     },
     {
         "id": 57,
         "functionName": "Time (distance, speed float64)",
         "functionDescription": "Time formula.",
-        "functionFormula": "distance/speed",
+        "functionFormula": "distance ÷ speed",
         "measurementUnit": "s",
         "context": "classical"
     },
     {
         "id": 58,
         "functionName": "VerticalPos (velocity, timeInSeconds, angleInDeg float64)",
-        "functionDescription": "Vertical Position formula.",
-        "functionFormula": "velocity * timeInSeconds * Sine(angleInDeg) - (1/2) *g*(timeInSeconds^2)",
+        "functionDescription": "Vertical Position of projectile after a certain time.",
+        "functionFormula": "velocity x timeInSeconds x Sine(angleInDeg) - (1÷2) x g x (timeInSeconds^2)",
         "measurementUnit": "m",
         "context": "classical"
     },
@@ -475,7 +475,7 @@
         "id": 60,
         "functionName": "Work (force, distance float64)",
         "functionDescription": "Work formula.",
-        "functionFormula": "force*distance",
+        "functionFormula": "force x distance",
         "measurementUnit": "J",
         "context": "classical"
     }
