@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 import { Function } from '../models/function';
 import { HttpClient } from "@angular/common/http";
-import { Observable } from 'rxjs';
 import { Constant } from 'src/app/features/documentation/models/constant';
+import { LoadValuesService } from '../services/load-values.service';
 
 @Component({
   selector: 'app-documentation-page',
@@ -21,7 +21,7 @@ export class DocumentationPageComponent {
   ];
   selected = 'all';
 
-  constructor(public http: HttpClient) {
+  constructor(public http: HttpClient, public load: LoadValuesService) {
   };
 
   ngOnInit() {
@@ -33,17 +33,20 @@ export class DocumentationPageComponent {
     this.http.get<Function[]>((this.functionsUrl)).subscribe(data =>{
       if (this.selected == 'all') {
         this.functions = data;
+        this.load.setFormulas(data);
         return;
       }
       this.functions = data.filter(object => {
         return object['context'] == this.selected
       });
+      this.load.setFormulas(this.functions);
     })
   }
 
   loadConstants(): void {
     this.http.get<Constant[]>((this.constantsUrl)).subscribe(data =>{
       this.constants = data;
+      this.load.setConstants(this.constants);
     })
   }
 
