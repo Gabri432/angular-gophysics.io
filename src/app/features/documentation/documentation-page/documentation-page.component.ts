@@ -31,7 +31,13 @@ export class DocumentationPageComponent {
 
   loadFunctions(): void {
     this.http.get<Function[]>((this.functionsUrl)).subscribe(data =>{
-      this.functions = data;
+      if (this.selected == 'all') {
+        this.functions = data;
+        return;
+      }
+      this.functions = data.filter(object => {
+        return object['context'] == this.selected
+      });
     })
   }
 
@@ -39,14 +45,6 @@ export class DocumentationPageComponent {
     this.http.get<Constant[]>((this.constantsUrl)).subscribe(data =>{
       this.constants = data;
     })
-  }
-
-  applyFilter(): void {
-    if (this.selected == 'all') this.loadFunctions();
-    this.loadFunctions();
-    this.functions = this.functions.filter(object => {
-      return object['context'] == this.selected
-    });
   }
 
 }

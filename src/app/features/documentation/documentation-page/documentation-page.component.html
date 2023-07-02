@@ -6,7 +6,7 @@
         <h3>Functions</h3>
         <mat-form-field>
             <mat-label>Package</mat-label>
-            <mat-select [(value)]="selected" (valueChange)="applyFilter()">
+            <mat-select [(value)]="selected" (valueChange)="loadFunctions()">
                 <mat-option *ngFor="let lib of libraries" [value]="lib">
                     {{lib}}
                 </mat-option>
