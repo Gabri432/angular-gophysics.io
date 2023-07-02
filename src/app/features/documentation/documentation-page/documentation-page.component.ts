@@ -16,6 +16,10 @@ export class DocumentationPageComponent {
   private constantsUrl = 'assets/database/constants.json';
   functions: Array<Function> = [];
   constants: Array<Constant> = [];
+  libraries: Array<String> = [
+    "all","classical", "electromagnetism", "fluids", "gravity", "relativity", "thermodynamics", "math"
+  ];
+  selected = 'all';
 
   constructor(public http: HttpClient) {
   };
@@ -35,6 +39,13 @@ export class DocumentationPageComponent {
 
   loadConstants(): Observable<Constant[]> {
     return this.http.get<Constant[]>((this.constantsUrl))
+  }
+
+  applyFilter(): void {
+    if (this.selected == 'all') this.ngOnInit();
+    this.functions = this.functions.filter(object => {
+      return object['context'] == this.selected
+    });
   }
 
 }

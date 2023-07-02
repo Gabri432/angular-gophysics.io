@@ -1,3 +1,5 @@
+@use '../../../../styles.scss' as style;
+
 #documentation-page {
     margin-top: 8%;
     width: 58%;
@@ -21,6 +23,9 @@
         font-weight: bold;
         font-size: 22px;
     }
+    .mat-form-field-appearance-outline .mat-form-field-outline {
+        color: style.$blue-gophysics !important;
+      }
 }
 @media only screen and (max-width: 899px){
     #documentation-page {
