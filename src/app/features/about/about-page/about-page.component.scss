@@ -1,0 +1,94 @@
+#about-page {
+    width: 66%;
+    margin-left: 15%;
+    padding: 2%;
+    background-color: white;
+
+    #page-title {
+        text-align: center;
+        font-size: 26px;
+        margin-top: 15%;
+    }
+
+    .blue {
+        color: blue;
+    }
+    
+    .text {
+        width: 70%;
+        padding-left: 15%;
+        font-size: 22px;
+    }
+
+    .question {
+        font-size: 24px;
+        font-style: italic;
+    }
+    
+
+
+}
+.function-displayer {
+    background-color: #373737;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2%;
+}
+.imports {
+    color: rgb(151, 78, 78);
+}
+.func {
+    color: blue;
+}
+.func-name {
+    color: yellow;
+}
+pre {
+    background-color: #373737;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2%;
+    overflow: auto;
+    width: auto;
+}
+code {
+    color: greenyellow;
+    white-space: pre-line;
+}
+.codes {
+    font-size: 16px;
+    padding: 2%;
+    color: white;
+}
+li a {
+    color: black;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 899px){
+    #main {
+        width: 80%;
+        padding: 2%;
+        margin-left: 9%;
+    }
+    .text {
+        width: 74%;
+        padding-left: 13%;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 629px){
+    #main {
+        width: 96%;
+        margin: 0;
+    }
+    .text {
+        width: 96%;
+        padding-left: 2%;
+        font-size: 18px;
+    }
+    pre {
+        width: 96%;
+    }
+}
