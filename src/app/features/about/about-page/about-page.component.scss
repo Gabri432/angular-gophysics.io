@@ -1,3 +1,4 @@
+@use '../../../../styles.scss' as style;
 #about-page {
     width: 66%;
     margin-left: 15%;
@@ -10,8 +11,8 @@
         margin-top: 15%;
     }
 
-    .blue {
-        color: blue;
+    .blue, a {
+        color: style.$blue-gophysics;
     }
     
     .text {
@@ -23,6 +24,7 @@
     .question {
         font-size: 24px;
         font-style: italic;
+        margin-top: 15%;
     }
     
 
@@ -67,7 +69,7 @@ li a {
 }
 
 @media only screen and (max-width: 899px){
-    #main {
+    #about-page {
         width: 80%;
         padding: 2%;
         margin-left: 9%;
@@ -79,7 +81,7 @@ li a {
     }
 }
 @media only screen and (max-width: 629px){
-    #main {
+    #about-page {
         width: 96%;
         margin: 0;
     }
