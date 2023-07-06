@@ -12,6 +12,7 @@ import { DisplayerComponent } from './features/documentation/components/displaye
 import { CoreModule } from './core/core.module';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { AboutPageComponent } from './features/about/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     HomeComponent,
     SideBarComponent,
     DocumentationPageComponent,
-    DisplayerComponent
+    DisplayerComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
