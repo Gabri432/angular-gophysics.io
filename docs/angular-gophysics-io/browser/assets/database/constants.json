@@ -1,0 +1,447 @@
+[
+    {
+        "id": 1,
+        "constantName": "gravity",
+        "constantDescription": "Earth gravitational acceleration.",
+        "constantValue": 9.81,
+        "exponential":0
+        ,
+        "measurementUnit": "m ÷ s^2",
+        "context": "gravity"
+    },
+    {
+        "id": 2,
+        "constantName": "C",
+        "constantDescription": "Light Speed (on vacuum).",
+        "constantValue": 299792452,
+        "exponential":0,
+        "measurementUnit": "m ÷ s",
+        "context": "relativity"
+    },
+    {
+        "id": 3,
+        "constantName": "lunarDist",
+        "constantDescription": "Average Earth-Moon Distance.",
+        "constantValue": 384,
+        "exponential":6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 4,
+        "constantName": "lunarDistMax",
+        "constantDescription": "Max Earth-Moon Distance.",
+        "constantValue": 405,
+        "exponential":6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 5,
+        "constantName": "sound",
+        "constantDescription": "Speed of sound.",
+        "constantValue": 340,
+        "exponential":0,
+        "measurementUnit": "m ÷ s",
+        "context": "classical"
+    },
+    {
+        "id": 6,
+        "constantName": "au",
+        "constantDescription": "Min Earth-Moon Distance.",
+        "constantValue": 1.49,
+        "exponential":11,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 7,
+        "constantName": "parsec",
+        "constantDescription": "One Parsec.",
+        "constantValue": 3.08,
+        "exponential":16,
+        "measurementUnit": "m",
+        "context": "relativity"
+    },
+    {
+        "id": 8,
+        "constantName": "earthMass",
+        "constantDescription": "Earth Mass.",
+        "constantValue": 5.98,
+        "exponential":24,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 9,
+        "constantName": "sunMass",
+        "constantDescription": "Sun Mass.",
+        "constantValue": 1.98,
+        "exponential":30,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 10,
+        "constantName": "moonMass",
+        "constantDescription": "Moon Mass.",
+        "constantValue": 7.342,
+        "exponential":22,
+        "measurementUnit": "kg",
+        "context": "gravity"
+    },
+    {
+        "id": 11,
+        "constantName": "earthRadius",
+        "constantDescription": "Earth Radius.",
+        "constantValue": 6.378,
+        "exponential":6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 12,
+        "constantName": "sunRadius",
+        "constantDescription": "Sun Radius.",
+        "constantValue": 6.9634,
+        "exponential":8,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 13,
+        "constantName": "moonRadius",
+        "constantDescription": "Moon Radius.",
+        "constantValue": 1.731,
+        "exponential":6,
+        "measurementUnit": "m",
+        "context": "gravity"
+    },
+    {
+        "id": 14,
+        "constantName": "G",
+        "constantDescription": "Universal Gravity Constant.",
+        "constantValue": 6.67,
+        "exponential":-11,
+        "measurementUnit": "(N x m^2) ÷ kg^2",
+        "context": "gravity"
+    },
+    {
+        "id": 15,
+        "constantName": "lightYear",
+        "constantDescription": "A Light year.",
+        "constantValue": 9.46,
+        "exponential":15,
+        "measurementUnit": "m",
+        "context": "relativity"
+    },
+    {
+        "id": 16,
+        "constantName": "hubble",
+        "constantDescription": "Hubble constant.",
+        "constantValue": 69.8,
+        "exponential":0,
+        "measurementUnit": "(km ÷ s) ÷ Mpc (Mega parsec)",
+        "context": "relativity"
+    },
+    {
+        "id": 17,
+        "constantName": "protonMass",
+        "constantDescription": "Proton mass.",
+        "constantValue": 1.672,
+        "exponential":-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 18,
+        "constantName": "electronMass",
+        "constantDescription": "Electron mass.",
+        "constantValue": 9.109,
+        "exponential":-31,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 19,
+        "constantName": "neutronMass",
+        "constantDescription": "Neutron mass.",
+        "constantValue": 1.674,
+        "exponential":-27,
+        "measurementUnit": "kg",
+        "context": "relativity"
+    },
+    {
+        "id": 20,
+        "constantName": "absZero",
+        "constantDescription": "Absolute Zero.",
+        "constantValue": -273,
+        "exponential":0,
+        "measurementUnit": "°C (Celsius Degrees)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 21,
+        "constantName": "R",
+        "constantDescription": "R constant.",
+        "constantValue": 8.316,
+        "exponential":0,
+        "measurementUnit": "J  ÷  (Mole x °K)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 22,
+        "constantName": "thermCoeffExpansion",
+        "constantDescription": "Thermal Coefficient Expansion.",
+        "constantValue": 0.036,
+        "exponential":0,
+        "measurementUnit": "",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 23,
+        "constantName": "planck",
+        "constantDescription": "Planck constant.",
+        "constantValue": 6.6260693,
+        "exponential":-34,
+        "measurementUnit": "(m^2 x kg)  ÷  (seconds)",
+        "context": "relativity"
+    },
+    {
+        "id": 24,
+        "constantName": "avogadro",
+        "constantDescription": "Avogadro constant.",
+        "constantValue": 6.022,
+        "exponential":23,
+        "measurementUnit": "molecules per mole",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 25,
+        "constantName": "planckMass",
+        "constantDescription": "Planck mass constant.",
+        "constantValue": 2.17645,
+        "exponential":-8,
+        "measurementUnit": "kg",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 26,
+        "constantName": "planckTime",
+        "constantDescription": "Planck time constant.",
+        "constantValue": 5.391,
+        "exponential":-44,
+        "measurementUnit": "s",
+        "context": "relativity"
+    },
+    {
+        "id": 27,
+        "constantName": "stefBoltz",
+        "constantDescription": "Stefan-Boltzmann Constant.",
+        "constantValue": 5.67,
+        "exponential":-8,
+        "measurementUnit": "W ÷ (m^2 x (°K)^4)",
+        "context": "thermodynamics"
+    },
+    {
+        "id": 28,
+        "constantName": "dielettric",
+        "constantDescription": "Dielettric constant (Vacuum Permittivity).",
+        "constantValue": 8.854,
+        "exponential":-12,
+        "measurementUnit": "Faraday ÷ m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 29,
+        "constantName": "vacuumPermeability",
+        "constantDescription": "Vacuum Permeability.",
+        "constantValue": 1.256637,
+        "exponential":-6,
+        "measurementUnit": "Henry ÷ meter or N ÷ A (Newton per Ampere)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 30,
+        "constantName": "elemCharge",
+        "constantDescription": "Elementary charge.",
+        "constantValue": 1.602,
+        "exponential":-19,
+        "measurementUnit": "C (coulomb)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 31,
+        "constantName": "silverResistivity",
+        "constantDescription": "Silver resistivity (at 20 °C).",
+        "constantValue": 1.59,
+        "exponential":-8,
+        "measurementUnit": "Ohm x m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 32,
+        "constantName": "copperResistivity",
+        "constantDescription": "Copper resistivity (at 20 °C).",
+        "constantValue": 1.68,
+        "exponential":-8,
+        "measurementUnit": "Ohm x m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 33,
+        "constantName": "ironResistivity",
+        "constantDescription": "Iron resistivity (at 20 °C).",
+        "constantValue": 9.7,
+        "exponential":-8,
+        "measurementUnit": "Ohm x m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 34,
+        "constantName": "steelResistivity",
+        "constantDescription": "Steel resistivity (at 20 °C).",
+        "constantValue": 69.0,
+        "exponential":-8,
+        "measurementUnit": "Ohm x m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 35,
+        "constantName": "proportConst",
+        "constantDescription": "Proportionality constant.",
+        "constantValue": 2.7,
+        "exponential":-7,
+        "measurementUnit": "N ÷ (A^2)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "weber",
+        "constantDescription": "Weber.",
+        "constantValue": 10,
+        "exponential":8,
+        "measurementUnit": "Maxwell",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 36,
+        "constantName": "tesla",
+        "constantDescription": "Tesla.",
+        "constantValue": 10,
+        "exponential":4,
+        "measurementUnit": "Gauss",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 37,
+        "constantName": "atomicMass",
+        "constantDescription": "Atomic mass.",
+        "constantValue": 1.66053,
+        "exponential":-27,
+        "measurementUnit": "kg",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 38,
+        "constantName": "airDensity",
+        "constantDescription": "Air Density.",
+        "constantValue": 1.29,
+        "exponential":0,
+        "measurementUnit": "kg ÷ (m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 39,
+        "constantName": "waterDensity",
+        "constantDescription": "Water Density.",
+        "constantValue": 1,
+        "exponential":3,
+        "measurementUnit": "kg ÷ (m^3)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 40,
+        "constantName": "heliumMass",
+        "constantDescription": "Helium mass.",
+        "constantValue": 5.00,
+        "exponential":-27,
+        "measurementUnit": "kg)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 41,
+        "constantName": "atm",
+        "constantDescription": "Atmosphere.",
+        "constantValue": 1.013,
+        "exponential":5,
+        "measurementUnit": "Pascal",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 42,
+        "constantName": "angstrom",
+        "constantDescription": "Angstrom.",
+        "constantValue": 1,
+        "exponential":-19,
+        "measurementUnit": "m",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 43,
+        "constantName": "waterViscosity0",
+        "constantDescription": "Water viscosity at 0 °C.",
+        "constantValue": 1.8,
+        "exponential":-3,
+        "measurementUnit": "Pascal x s",
+        "context": "fluids"
+    },
+    {
+        "id": 44,
+        "constantName": "waterViscosity20",
+        "constantDescription": "Water viscosity at 20 °C.",
+        "constantValue": 10,
+        "exponential":-3,
+        "measurementUnit": "Pascal x s",
+        "context": "fluids"
+    },
+    {
+        "id": 45,
+        "constantName": "copperConductivity",
+        "constantDescription": "Copper conductivity.",
+        "constantValue": 401,
+        "exponential":0,
+        "measurementUnit": "W ÷ (m x °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 46,
+        "constantName": "goldConductivity",
+        "constantDescription": "Gold conductivity.",
+        "constantValue": 318,
+        "exponential":0,
+        "measurementUnit": "W ÷ (m x °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 47,
+        "constantName": "ironConductivity",
+        "constantDescription": "Iron conductivity.",
+        "constantValue": 83.5,
+        "exponential":0,
+        "measurementUnit": "W ÷ (m x °K)",
+        "context": "electromagnetism"
+    },
+    {
+        "id": 48,
+        "constantName": "airConductivity",
+        "constantDescription": "Air conductivity.",
+        "constantValue": 0.024,
+        "exponential":0,
+        "measurementUnit": "W ÷ (m x °K)",
+        "context": "electromagnetism"
+    }
+]
+
+
+
