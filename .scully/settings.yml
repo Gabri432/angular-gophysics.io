@@ -1,0 +1,11 @@
+identifier: l5mcg3a8q140d1t2
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: angular-gophysics-io
+homeFolder: C:\Users\PC\My Angular Programs\angular-gophysics-io
+distFolder: ./docs
+outDir: C:\Users\PC\My Angular Programs\angular-gophysics-io\docs
+handle404: ''
+allowErrorCollect: false
