@@ -5,7 +5,7 @@ reloadPort: 2667
 hostName: localhost
 projectName: angular-gophysics-io
 homeFolder: C:\Users\PC\My Angular Programs\angular-gophysics-io
-distFolder: ./docs
+distFolder: ./dist/angular-gophysics.io
 outDir: C:\Users\PC\My Angular Programs\angular-gophysics-io\docs
 handle404: ''
 allowErrorCollect: false
