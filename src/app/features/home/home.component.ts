@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  ngOnInit(): void {
+    this.changeURLcanonical();
+  }
+
+  changeURLcanonical(): void {
+    let text = document.querySelector("link[rel='canonical']")!.getAttribute("href");
+    if (text!.includes("documentation")) {
+      text = text!.replace("documentation", "");
+      document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
+    }
+    if (text!.includes("about")) {
+      text = text!.replace("about", "");
+      document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
+    }
+  }
+
 }

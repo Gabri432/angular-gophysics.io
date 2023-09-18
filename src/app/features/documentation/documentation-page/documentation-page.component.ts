@@ -27,6 +27,7 @@ export class DocumentationPageComponent {
   ngOnInit() {
     this.loadFunctions();
     this.loadConstants();
+    this.changeURLcanonical();
   }
 
   loadFunctions(): void {
@@ -48,6 +49,19 @@ export class DocumentationPageComponent {
       this.constants = data;
       this.load.setConstants(this.constants);
     })
+  }
+
+  changeURLcanonical(): void {
+    let text = document.querySelector("link[rel='canonical']")!.getAttribute("href") as string;
+    if (! text!.includes("documentation")) {
+      if (text?.includes("about")) {
+        text = text.replace("about", "documentation");
+        document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
+      } else {
+        text += "documentation";
+        document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
+      }
+    }
   }
 
 }
