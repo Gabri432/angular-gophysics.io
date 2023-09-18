@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/angular-gophysics-io/browser",
+            "outputPath": "dist/angular-gophysics-io/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
