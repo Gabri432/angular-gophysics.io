@@ -55,10 +55,10 @@ export class DocumentationPageComponent {
     let text = document.querySelector("link[rel='canonical']")!.getAttribute("href") as string;
     if (! text!.includes("documentation")) {
       if (text?.includes("about")) {
-        text = text.replace("about", "documentation");
+        text = text.replace("about/", "documentation/");
         document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
       } else {
-        text += "documentation";
+        text += "documentation/";
         document.querySelector("link[rel='canonical']")!.setAttribute("href", text);
       }
     }
