@@ -7,8 +7,8 @@ import { AboutPageComponent } from './features/about/about-page/about-page.compo
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'Home Page'},
-  {path: 'documentation', component: DocumentationPageComponent, title: 'Gophysics Documentation'},
-  {path: 'about', component: AboutPageComponent, title: 'About gophysics'},
+  {path: 'documentation/.', component: DocumentationPageComponent, title: 'Gophysics Documentation'},
+  {path: 'about/.', component: AboutPageComponent, title: 'About gophysics'},
   {path: '**', component: Error404Component, title: 'Error Page Not Found'}
 ];
 
