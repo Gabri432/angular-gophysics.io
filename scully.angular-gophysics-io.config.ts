@@ -6,5 +6,14 @@ export const config: ScullyConfig = {
   distFolder: './dist/angular-gophysics.io', // output directory of your Angular build artifacts
   outDir: './docs', // directory for scully build artifacts
   defaultPostRenderers: [],
-  routes: {},
+  routes: {
+    '/about/': {
+      type: 'contentFolder',
+      postRenderers: ['seoHrefOptimize'],
+    },
+    '/documentation/': {
+      type: 'contentFolder',
+      postRenderers: ['seoHrefOptimize'],
+    }
+  },
 };
